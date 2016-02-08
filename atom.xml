@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-08T14:42:37.919Z</updated>
+  <updated>2016-02-08T16:03:51.739Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>部署所遇到的问题</title>
+    <link href="http://yoursite.com/2016/02/08/%E9%83%A8%E7%BD%B2%E6%89%80%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2016/02/08/部署所遇到的问题/</id>
+    <published>2016-02-08T15:54:05.000Z</published>
+    <updated>2016-02-08T16:03:51.739Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;bug&quot;&gt;&lt;a href=&quot;#bug&quot; class=&quot;headerlink&quot; title=&quot;bug&quot;&gt;&lt;/a&gt;bug&lt;/h2&gt;&lt;p&gt;因为时间很匆忙，再加上自己看完文档还不是很了解也没有时间实验，所以遗留了一些bug在上面，现在只能完成最基本的静态博客文章，先把要解决的问题放在上面，等有时间了再慢慢的看别人是怎么做的，自己慢慢模仿，先列举我一下能够想到的问题，有时间再补坑&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;To_Do_List&quot;&gt;&lt;a href=&quot;#To_Do_List&quot; class=&quot;headerlink&quot; title=&quot;To Do List&quot;&gt;&lt;/a&gt;To Do List&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;没有评论系统，还在纠结用多说还是disqus&lt;/li&gt;
+&lt;li&gt;背景太亮了，对长时间阅读很不利，换了背景效果也不好，但是我想把背景换成深色的&lt;/li&gt;
+&lt;li&gt;arkdown还不是很会用&lt;/li&gt;
+&lt;li&gt;文章没有标签云&lt;/li&gt;
+&lt;li&gt;文章没有分类&lt;/li&gt;
+&lt;li&gt;左边侧边栏的个人信息等都没有做&lt;/li&gt;
+&lt;li&gt;RSS，sitemap等都没有做&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;bug&quot;&gt;&lt;a href=&quot;#bug&quot; class=&quot;headerlink&quot; title=&quot;bug&quot;&gt;&lt;/a&gt;bug&lt;/h2&gt;&lt;p&gt;因为时间很匆忙，再加上自己看完文档还不是很了解也没有时间实验，所以遗留了一些bug在上面，现在只能完成最基本的静态博客文章，先把要解决的问题放在上面，等有时间了再慢慢的看别人是怎么做的，自己慢慢模仿，先列举我一下能够想到的问题，有时间再补坑&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2016 猴年开年寄语</title>
