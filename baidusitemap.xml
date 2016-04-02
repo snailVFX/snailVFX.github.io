@@ -3,14 +3,18 @@
 
 
     
+    
+    
   <url>
-    <loc>http://yoursite.com/2016/02/08/%E9%83%A8%E7%BD%B2%E6%89%80%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2016-03-28T15:29:16.804Z</lastmod>
+    <loc>http://yoursite.com/2016/02/08/fix_issue/</loc>
+    <lastmod>2016-04-02T13:24:25.151Z</lastmod>
     <data>
         <display>
-        <title>部署所遇到的问题</title>
+        <title>部署中遇到的问题</title>
         <pubTime>2016-02-08T15:54:05.000Z</pubTime>
         
+        <tag>issue</tag>
+         
          
            
         </display>
@@ -19,13 +23,15 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/02/08/2016-%E7%8C%B4%E5%B9%B4%E5%BC%80%E5%B9%B4%E5%AF%84%E8%AF%AD/</loc>
-    <lastmod>2016-03-28T15:28:25.972Z</lastmod>
+    <loc>http://yoursite.com/2016/02/08/2016_new_year_wish/</loc>
+    <lastmod>2016-04-02T13:11:17.495Z</lastmod>
     <data>
         <display>
         <title>2016 猴年开年寄语</title>
         <pubTime>2016-02-07T17:06:55.000Z</pubTime>
         
+        <tag>2016开年寄语</tag>
+         
          
            
         </display>
@@ -33,7 +39,41 @@
     </url>
 
     
+  <url>
+    <loc>http://yoursite.com/2016/03/31/install_Ubuntu_Kylin/</loc>
+    <lastmod>2016-04-02T13:06:53.595Z</lastmod>
+    <data>
+        <display>
+        <title>Geek第一步:安装Ubuntu Kylin系统</title>
+        <pubTime>2016-03-30T16:28:24.000Z</pubTime>
+        
+        <tag>安装Ubuntu Kylin系统</tag>
+         
+         
+           
+             
+              <breadCrumb title="Ubuntu环境搭建" url="http://yoursite.com/categories/Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
-    
+  <url>
+    <loc>http://yoursite.com/2016/04/02/why-how-what/</loc>
+    <lastmod>2016-04-02T12:25:25.299Z</lastmod>
+    <data>
+        <display>
+        <title>学习，思维三部曲：Why How What（通过现象看本质）</title>
+        <pubTime>2016-04-02T12:10:30.000Z</pubTime>
+        
+        <tag>思考</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
     
 </urlset>

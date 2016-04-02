@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Geek第一步:安装Ubuntu Kylin系统 | Python白话</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="作为一名志向远大的程序员， Linux与OS两大操作系统是必须掌握的.所以第一件事情就是换掉WIN系统">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Geek第一步:安装Ubuntu Kylin系统">
+<meta property="og:url" content="http://yoursite.com/2016/03/31/install_Ubuntu_Kylin/index.html">
+<meta property="og:site_name" content="Python白话">
+<meta property="og:description" content="作为一名志向远大的程序员， Linux与OS两大操作系统是必须掌握的.所以第一件事情就是换掉WIN系统">
+<meta property="og:updated_time" content="2016-04-02T13:06:53.595Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Geek第一步:安装Ubuntu Kylin系统">
+<meta name="twitter:description" content="作为一名志向远大的程序员， Linux与OS两大操作系统是必须掌握的.所以第一件事情就是换掉WIN系统">
+  
+    <link rel="alternative" href="/atom.xml" title="Python白话" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.png">
+  
+  
+      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  
+      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  
+  <!-- 加载特效 -->
+    <script src="/js/pace.js"></script>
+    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
+  <script>
+      var yiliaConfig = {
+          rootUrl: '/',
+          fancybox: true,
+          animate: true,
+          isHome: false,
+          isPost: true,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false
+      }
+  </script>
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            
+            <img lazy-src="/img/head.jpg" class="js-avatar">
+            
+        </a>
+
+        <hgroup>
+          <h1 class="header-author"><a href="/">Python白话</a></h1>
+        </hgroup>
+
+        
+        
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">博客首页</a></li>
+                        
+                            <li><a href="/archives">所有文章</a></li>
+                        
+                            <li><a href="/instagram">相册</a></li>
+                        
+                            <li><a href="/about">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fl mail" target="_blank" href="/chenxiaoyi19921109@gmail.com" title="mail">mail</a>
+                            
+                                <a class="fl github" target="_blank" href="https://github.com/snailVFX" title="github">github</a>
+                            
+                                <a class="fl zhihu" target="_blank" href="https://www.zhihu.com/people/chen-xiao-yi-21" title="zhihu">zhihu</a>
+                            
+                                <a class="fl weibo" target="_blank" href="http://weibo.com/p/1005052424947011" title="weibo">weibo</a>
+                            
+                                <a class="fl twitter" target="_blank" href="https://twitter.com/124473059" title="twitter">twitter</a>
+                            
+                                <a class="fl facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100004374273245" title="facebook">facebook</a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <a href="/tags/2016开年寄语/" style="font-size: 10px;">2016开年寄语</a> <a href="/tags/issue/" style="font-size: 10px;">issue</a> <a href="/tags/安装Ubuntu-Kylin系统/" style="font-size: 10px;">安装Ubuntu Kylin系统</a> <a href="/tags/思考/" style="font-size: 10px;">思考</a>
+                    </div>
+                </section>
+                
+                
+                
+
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Python白话</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                
+                    <img lazy-src="/img/head.jpg" class="js-avatar">
+                
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">Python白话</a></h1>
+            </hgroup>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">博客首页</a></li>
+                
+                    <li><a href="/archives">所有文章</a></li>
+                
+                    <li><a href="/instagram">相册</a></li>
+                
+                    <li><a href="/about">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                        <a class="mail" target="_blank" href="/chenxiaoyi19921109@gmail.com" title="mail">mail</a>
+                    
+                        <a class="github" target="_blank" href="https://github.com/snailVFX" title="github">github</a>
+                    
+                        <a class="zhihu" target="_blank" href="https://www.zhihu.com/people/chen-xiao-yi-21" title="zhihu">zhihu</a>
+                    
+                        <a class="weibo" target="_blank" href="http://weibo.com/p/1005052424947011" title="weibo">weibo</a>
+                    
+                        <a class="twitter" target="_blank" href="https://twitter.com/124473059" title="twitter">twitter</a>
+                    
+                        <a class="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100004374273245" title="facebook">facebook</a>
+                    
+                </div>
+            </nav>
+        </header>                
+    </div>
+</nav>
+      <div class="body-wrap"><article id="post-install_Ubuntu_Kylin" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/03/31/install_Ubuntu_Kylin/" class="article-date">
+      <time datetime="2016-03-30T16:28:24.000Z" itemprop="datePublished">2016-03-31</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Geek第一步:安装Ubuntu Kylin系统
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Ubuntu环境搭建/">Ubuntu环境搭建</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/安装Ubuntu-Kylin系统/">安装Ubuntu Kylin系统</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>作为一名志向远大的程序员， Linux与OS两大操作系统是必须掌握的.<br>所以第一件事情就是换掉WIN系统<br><a id="more"></a></p>
+<hr>
+<h1 id="u4E0B_u8F7DUbuntu_Kylin_u955C_u50CF"><a href="#u4E0B_u8F7DUbuntu_Kylin_u955C_u50CF" class="headerlink" title="下载Ubuntu Kylin镜像"></a>下载Ubuntu Kylin镜像</h1><p><a href="http://cn.ubuntu.com/download/" target="_blank" rel="external">点击下载 Ubuntu Kylin</a><br>我下载的是Ubuntu Kylin 15.10,下载完后的镜像名称：ubuntukylin-15.10-desktop-amd64</p>
+<hr>
+<h2 id="u70E7_u5F55_u81F3u_u76D8"><a href="#u70E7_u5F55_u81F3u_u76D8" class="headerlink" title="烧录至u盘"></a>烧录至u盘</h2><p>下载完镜像后，我个人使用UltraISO这个软件进行U盘刻录，简单方便，软件下载地址自行百度前几条就有<br>可以参考下面链接，由于过程过于简单，所以不再多述。<br><a href="http://jingyan.baidu.com/article/a378c960630e61b329283045.html" target="_blank" rel="external">使用UltraISO制作U盘启动盘</a></p>
+<p><a href="http://jingyan.baidu.com/article/95c9d20dabb647ec4f756140.html" target="_blank" rel="external">UltraISO制作U盘装系统启动盘完美教程</a></p>
+<hr>
+<p>在安装Ubuntu系统时对于刚接触Linux系统的新人来说会有挂载点这个问题（WIN系统中的分区），在WIN系统中的C，D，E，F这类盘符在Linux系统中是没有的，取而代之的是/， /home， /usr， /boot等这类分区，所以开始有必要了解一下Linux的一些基础知识。</p>
+<hr>
+<h1 id="u5206_u533A_u57FA_u7840_u77E5_u8BC6"><a href="#u5206_u533A_u57FA_u7840_u77E5_u8BC6" class="headerlink" title="分区基础知识"></a>分区基础知识</h1><p>一块硬盘可以被划分为多个分区，分区之间是相互独立的，访问不同的分区如同访问不同的硬盘。分区有三种类型：主分区（primary-partition）、扩展分区（extended-partition）和逻辑分区（logical-partition）。一个硬盘最多可以有四个主分区，如果想在一块硬盘上拥有多于四个的分区，就要创建扩展分区，再在扩展分区上划分逻辑分区。Ubuntu Kylin系统既可以安装在主分区上也可以安装在逻辑分区上。</p>
+<hr>
+<h2 id="Linux_u5206_u533A_u7C7B_u578B"><a href="#Linux_u5206_u533A_u7C7B_u578B" class="headerlink" title="Linux分区类型"></a>Linux分区类型</h2><blockquote>
+<ul>
+<li><strong>/ （根分区，整个系统的基础，是必须具备的）</strong>：如不独立划分以下介绍的分区，则其都归于此分区，即使最最新的新手也可以考虑30GB为上限——通常不会用到此。</li>
+<li><strong>/home（用户主目录的默认位置）</strong>：用来保存个人配置文件，文档，音乐，视频等。</li>
+<li><strong>/root（根用户）</strong>:超级用户的主目录。</li>
+<li><strong>/usr（存放系统和个人软件）</strong>：包括与系统用户直接相关的文件和目录，例如应用程序及支持它们的库文件，安装程序比较多的话多分点。也可以单为/user/local配置个分区，这个是安装个人软件的地方。</li>
+<li><strong>/boot（包括内核和其它系统启动期间使用的文件）</strong>。</li>
+<li><strong>/var（系统日志记录分区）</strong>：用于贮存variable（或不断改变的）文件，例如日志文件。。</li>
+<li><strong>/var/log（系统日志记录分区）</strong>：如果设立了这一单独的分区，这样即使系统的日志文件出现了问题，它们也不会影响到操作系统的主分区。</li>
+<li><strong>/opt（可选文件和程序的贮存目录）</strong>：该目录主要被第三方开发者用来简易地安装和卸装他们的软件包。</li>
+<li><strong>/tmp（用来存放临时文件）</strong>：该目录给予所有系统用户读写权。</li>
+<li><strong>/mnt（挂载点）</strong>：该目录中通常包括系统引导后被挂载的文件系统的挂载点。</li>
+<li><strong>/swap（交换分区，操作系统的交换空间）</strong>：，用来支持虚拟内存，当系统没有足够的内存来存储正在处理的数据时，就要使用交换分区，内存大于4G可以不需要配置。</li>
+<li><strong>/bin（存放标准系统实用程序）</strong>：目录/usr/bin也被用来贮存用户命令,绝少划分的分区。</li>
+<li><strong>/sbin</strong>：系统命令（例如shutdown）的贮存位置，目录/usr/sbin 中也包括了许多系统命令。</li>
+<li><strong>/lost+found</strong>：被fsck 用来放置零散文件（没有名称的文件）。</li>
+<li><strong>/lib</strong>：包含许多被/bin/和/sbin/中的程序使用的库文件，目录/usr/lib/中含有更多用于用户程序的库文件。</li>
+<li><strong>/dev</strong>：贮存设备文件。</li>
+<li><strong>/etc</strong>：包含许多配置文件和目录。</li>
+<li><strong>/proc</strong>：一个虚拟的文件系统（不是实际贮存在磁盘上的），它包括被某些程序使用的系统信息。</li>
+<li><strong>/initrd</strong>：用来在计算机启动时挂载initrd.img映像文件的目录以及载入所需设备模块的目录。</li>
+</ul>
+</blockquote>
+<hr>
+<h1 id="u5206_u533A_u65B9_u6848_u5EFA_u8BAE"><a href="#u5206_u533A_u65B9_u6848_u5EFA_u8BAE" class="headerlink" title="分区方案建议"></a>分区方案建议</h1><h2 id="u6848_u4F8B_u4E00"><a href="#u6848_u4F8B_u4E00" class="headerlink" title="案例一"></a>案例一</h2><p>分区类型默认EXT4日志文件系统</p>
+<p>只分/和swap存在一定的风险，就是系统出现问题需要重装的时候，/将被格式化， 连带着个人数据也被格式化了，虽然这个问题也不是不可以解决，但是总是会带来不便。</p>
+<p>强烈建议三个分区的方案：第一个分区大约50G左右，分给”/“，第二个分区分给swap，大小为4G或者8G（根据你的物理内存来，一般物理内存2G或以下，swap大小为物理内存大小乘以2，4G以上物理内存swap大小可以与物理内存相等），第三个分区是剩下的所有大小，分给/home。</p>
+<p>/boot /home / 必须分；/home 相当于你的家，里边存储所有个人文件；/boot 里边都是引导+内核，即使/Ubuntu Kylin 15.10 出了问题也不用担心无法引导启动。如你所说，格式化重新安装，也只需要格式化掉/ 和 /boot，/home 的文件完全保留；（WIN的引导程序不能放在逻辑分区，否则无法启动，Linux 无虞）</p>
+<p>/home是用户文件夹所在的地方。一个用户可能在/home/user中存放了大量的文件资料，如果独立挂 载/home，即使遇到Ubuntu无故身亡的尴尬局面，也可以立刻重装系统，取得自己的文件资料。因此，/home是唯一可以考虑独立挂载分区的目录。<br>事实上，即使先期分区错误（如只分了/），可以后期无损分区+ 修改/etc/fstab 实现对应的需求（分成/和/boot）；也就是说，你可以把分区挂载在任何位置，例如把/var 放在hdd，/home 放在ssd，/usr放在ssd2之类的需求。至于说swap，老版教材会说需要，大小为内存2倍，不过现在并不硬性要求；如果你很少编译程序，而且内存够大，那么不需要分，也完全没有关系。</p>
+<p>/var和/tmp独立出来的教程通常是面向服务器的。因为高负载的服务器通常会产生很    多日志文件、临时文件，这些文件经常改变，因此把/var，/tmp独立出来有利于提高服    务器性能。</p>
+<p>以上分区虽然不是绝对的，但是个人认为这是作桌面系统最简单实用的方案，/home分区在每次重装的时候不必格式化，可以保留个人数据。如果你的机器上跑了一些服务，比如MySQL，还比较怕数据丢失，建议把 /var分出来。</p>
+<h2 id="u6848_u4F8B_u4E8C"><a href="#u6848_u4F8B_u4E8C" class="headerlink" title="案例二"></a>案例二</h2><p>我自己的例子</p>
+<hr>
+<h1 id="u6587_u7AE0_u53C2_u8003_u8D44_u6599"><a href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599" class="headerlink" title="文章参考资料"></a>文章参考资料</h1><p><a href="http://os.51cto.com/art/201510/494767_all.htm" target="_blank" rel="external">图文详解如何安装Ubuntu 15.10</a></p>
+<p><a href="http://www.linuxdiyf.com/linux/15144.html" target="_blank" rel="external">Ubuntu Kylin 15.10快速安装指南</a></p>
+<p><a href="http://blog.chinaunix.net/uid-7547035-id-60111.html" target="_blank" rel="external">安装Ubuntu时的硬盘分区方案</a></p>
+<p><a href="http://jingyan.baidu.com/article/60ccbceb18624464cab197ea.html" target="_blank" rel="external">win7+ubuntu 13.04双系统安装方法</a></p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/03/31/install_Ubuntu_Kylin/">Geek第一步:安装Ubuntu Kylin系统</a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 Python白话 的个人博客">Python白话</a></p>
+        <p><span>发布时间:</span>2016年03月31日 - 00时28分</p>
+        <p><span>最后更新:</span>2016年04月02日 - 21时06分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/03/31/install_Ubuntu_Kylin/" title="Geek第一步:安装Ubuntu Kylin系统">http://yoursite.com/2016/03/31/install_Ubuntu_Kylin/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/03/31/install_Ubuntu_Kylin/　　作者: Python白话" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+<nav id="article-nav">
+  
+    <a href="/2016/04/02/why-how-what/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          学习，思维三部曲：Why How What（通过现象看本质）
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/02/08/fix_issue/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">部署中遇到的问题</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#u4E0B_u8F7DUbuntu_Kylin_u955C_u50CF"><span class="toc-number">1.</span> <span class="toc-text">下载Ubuntu Kylin镜像</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#u70E7_u5F55_u81F3u_u76D8"><span class="toc-number">1.1.</span> <span class="toc-text">烧录至u盘</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u5206_u533A_u57FA_u7840_u77E5_u8BC6"><span class="toc-number">2.</span> <span class="toc-text">分区基础知识</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Linux_u5206_u533A_u7C7B_u578B"><span class="toc-number">2.1.</span> <span class="toc-text">Linux分区类型</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u5206_u533A_u65B9_u6848_u5EFA_u8BAE"><span class="toc-number">3.</span> <span class="toc-text">分区方案建议</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#u6848_u4F8B_u4E00"><span class="toc-number">3.1.</span> <span class="toc-text">案例一</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u6848_u4F8B_u4E8C"><span class="toc-number">3.2.</span> <span class="toc-text">案例二</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599"><span class="toc-number">4.</span> <span class="toc-text">文章参考资料</span></a></li></ol>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+
+
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
+
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016/03/31/install_Ubuntu_Kylin/" data-title="Geek第一步:安装Ubuntu Kylin系统" data-url="http://yoursite.com/2016/03/31/install_Ubuntu_Kylin/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"mr-chen"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+    
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2016/04/02/why-how-what/" title="上一篇: 学习，思维三部曲：Why How What（通过现象看本质）">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        
+            <a href="/2016/02/08/fix_issue/" title="下一篇: 部署中遇到的问题">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/why-how-what/">学习，思维三部曲：Why How What（通过现象看本质）</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/31/install_Ubuntu_Kylin/">Geek第一步:安装Ubuntu Kylin系统</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/fix_issue/">部署中遇到的问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/2016_new_year_wish/">2016 猴年开年寄语</a></li></ul>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#toc, .switch-btn, .switch-area").toggle();
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+                $(".switch-btn, .switch-area").fadeToggle(300);
+            }
+        })
+    </script>
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                &copy; 2016 Python白话
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/luuman/hexo-theme-spfk" target="_blank">spfk</a> by luuman
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" >本站到访数: 
+                            <span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>, </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit">本页阅读量: 
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+
+    </div>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function() {
+            var backgroundnum = 12;
+            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+        })
+    </script>
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    $(document).ready(function() {
+        if ($("#comments").length < 1) {
+            $("#scroll > a:nth-child(2)").hide();
+        };
+    })
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  <script language="javascript">
+    $(function() {
+        $("a[title]").each(function() {
+            var a = $(this);
+            var title = a.attr('title');
+            if (title == undefined || title == "") return;
+            a.data('title', title).removeAttr('title').hover(
+
+            function() {
+                var offset = a.offset();
+                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
+                    top: offset.top - a.outerHeight() - 15,
+                    left: offset.left + a.outerWidth()/2 + 1
+                }).fadeIn(function() {
+                    var pop = $(this);
+                    setTimeout(function() {
+                        pop.remove();
+                    }, pop.text().length * 800);
+                });
+            }, function() {
+                $("#anchortitlecontainer").remove();
+            });
+        });
+    });
+</script>
+
+  </div>
+</body>
+</html>
