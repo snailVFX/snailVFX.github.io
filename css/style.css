@@ -3205,9 +3205,6 @@ color
   word-break: break-word;
   margin: 10px 0px;
   border-left: 4px solid #2f2f2f;
-  border-top: 1px dashed #000;
-  border-right: 1px dashed #000;
-  border-bottom: 1px dashed #000;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3244,7 +3241,6 @@ color
   white-space: pre;
 }
 .article-entry p a {
-  border: dashed 1px #000;
   padding: 1px 8px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
