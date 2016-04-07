@@ -284,38 +284,40 @@
     
   </div>
   
-    
+    <% if (post.original != false && !is_page()){ %>
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/03/31/install_Ubuntu_Kylin/">Geek第一步:安装Ubuntu Kylin系统</a></p>
-        <p><span>文章作者:</span><a href="/" title="访问 Python白话 的个人博客">Python白话</a></p>
-        <p><span>发布时间:</span>2016年03月31日 - 00时28分</p>
-        <p><span>最后更新:</span>2016年04月02日 - 21时06分</p>
+        <p><span>本文标题:</span><a href="<%- url_for(post.path) %>"><%= post.title %></a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 <%=theme.author%> 的个人博客"><%=theme.author%></a></p>
+        <p><span>发布时间:</span><%= post.date.format("YYYY年MM月DD日 - HH时mm分") %></p>
+        <p><span>最后更新:</span><%= post.updated.format("YYYY年MM月DD日 - HH时mm分") %></p>
         <p>
             <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
         </p>
     </div>
+<% } %>
 
-
-
+<% if (post.prev || post.next){ %>
 <nav id="article-nav">
-  
-    <a href="/2016/04/02/why-how-what/" id="article-nav-newer" class="article-nav-link-wrap">
+  <% if (post.prev){ %>
+    <a href="<%- url_for(post.prev.path) %>" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
-        
-          学习，思维三部曲：Why How What（通过现象看本质）
-        
+        <% if (post.prev.title){ %>
+          <%= post.prev.title %>
+        <% } else { %>
+          (no title)
+        <% } %>
       </div>
     </a>
-  
-  
-    <a href="/2016/02/08/fix_issue/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">部署问题</div>
+  <% } %>
+  <% if (post.next){ %>
+    <a href="<%- url_for(post.next.path) %>" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><%= post.next.title %></div>
       <strong class="article-nav-caption">></strong>
     </a>
-  
+  <% } %>
 </nav>
-
+<% } %>
 
   
 </article>
