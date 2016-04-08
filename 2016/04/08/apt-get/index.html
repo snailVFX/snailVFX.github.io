@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>部署问题 | Python白话</title>
+  <title>Ubuntu下apt-get命令详解 | Python白话</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="bug遗留了一些bug在上面，先把要解决的问题列举出来，等有时间了再慢慢补坑">
+  <meta name="description" content="在Ubuntu下，apt-get近乎是最常用的shell命令之一了，因为他是Ubuntu通过新立得安装软件的常用工具命令。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="部署问题">
-<meta property="og:url" content="http://yoursite.com/2016/02/08/fix_issue/index.html">
+<meta property="og:title" content="Ubuntu下apt-get命令详解">
+<meta property="og:url" content="http://yoursite.com/2016/04/08/apt-get/index.html">
 <meta property="og:site_name" content="Python白话">
-<meta property="og:description" content="bug遗留了一些bug在上面，先把要解决的问题列举出来，等有时间了再慢慢补坑">
-<meta property="og:updated_time" content="2016-04-07T13:24:42.157Z">
+<meta property="og:description" content="在Ubuntu下，apt-get近乎是最常用的shell命令之一了，因为他是Ubuntu通过新立得安装软件的常用工具命令。">
+<meta property="og:updated_time" content="2016-04-08T14:12:06.105Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="部署问题">
-<meta name="twitter:description" content="bug遗留了一些bug在上面，先把要解决的问题列举出来，等有时间了再慢慢补坑">
+<meta name="twitter:title" content="Ubuntu下apt-get命令详解">
+<meta name="twitter:description" content="在Ubuntu下，apt-get近乎是最常用的shell命令之一了，因为他是Ubuntu通过新立得安装软件的常用工具命令。">
   
     <link rel="alternative" href="/atom.xml" title="Python白话" type="application/atom+xml">
   
@@ -126,7 +126,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/2016开年寄语/" style="font-size: 10px;">2016开年寄语</a> <a href="/tags/issue/" style="font-size: 10px;">issue</a> <a href="/tags/安装Ubuntu-Kylin系统/" style="font-size: 10px;">安装Ubuntu Kylin系统</a> <a href="/tags/思考/" style="font-size: 10px;">思考</a>
+                        <a href="/tags/2016开年寄语/" style="font-size: 10px;">2016开年寄语</a> <a href="/tags/issue/" style="font-size: 10px;">issue</a> <a href="/tags/安装Sublime-Text-3/" style="font-size: 10px;">安装Sublime Text 3</a> <a href="/tags/安装Ubuntu-Kylin系统/" style="font-size: 10px;">安装Ubuntu Kylin系统</a> <a href="/tags/思考/" style="font-size: 10px;">思考</a> <a href="/tags/熟悉apt-get命令/" style="font-size: 10px;">熟悉apt-get命令</a>
                     </div>
                 </section>
                 
@@ -184,11 +184,11 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap"><article id="post-fix_issue" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-apt-get" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/02/08/fix_issue/" class="article-date">
-      <time datetime="2016-02-08T15:54:05.000Z" itemprop="datePublished">2016-02-08</time>
+      <a href="/2016/04/08/apt-get/" class="article-date">
+      <time datetime="2016-04-08T13:22:19.000Z" itemprop="datePublished">2016-04-08</time>
 </a>
     </div>
   
@@ -201,7 +201,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      部署问题
+      Ubuntu下apt-get命令详解
     </h1>
   
 
@@ -209,10 +209,14 @@
       
       <div class="article-info article-info-post">
         
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Ubuntu环境搭建/">Ubuntu环境搭建</a>
+    </div>
+
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/issue/">issue</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/熟悉apt-get命令/">熟悉apt-get命令</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -222,31 +226,49 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h1 id="bug"><a href="#bug" class="headerlink" title="bug"></a>bug</h1><p>遗留了一些bug在上面，先把要解决的问题列举出来，等有时间了再慢慢补坑</p>
+        <blockquote>
+<p>在Ubuntu下，apt-get近乎是最常用的shell命令之一了，因为他是Ubuntu通过新立得安装软件的常用工具命令。</p>
+</blockquote>
 <a id="more"></a>
-<h2 id="u5F85_u5B8C_u6210_u4E8B_u9879"><a href="#u5F85_u5B8C_u6210_u4E8B_u9879" class="headerlink" title="待完成事项"></a>待完成事项</h2><ul>
-<li>RSS</li>
-<li>sitemap</li>
-<li>多说css调整</li>
-<li>版权信息网站地址问题</li>
-<li>分享功能错误</li>
-<li>缺少图片分享功能</li>
-</ul>
+<h1 id="apt-get_u4ECB_u7ECD"><a href="#apt-get_u4ECB_u7ECD" class="headerlink" title="apt-get介绍"></a>apt-get介绍</h1><p>高级包装工具（英语：Advanced Packaging Tools,简称：APT）是Debian及其衍生发行版（如：ubuntu）的软件包管理器。APT可以自动下载，配置，安装二进制或者源代码格式的软件包，因此简化了 Unix系统上管理软件的过程,apt-get命令一般需要root权限执行，所以一般跟着sudo命令。它与yum,pacman,installpkg等性质差不多，是系统软件的管理工具。会用其中一种基本上都会用了。</p>
 <hr>
-<h2 id="u7248_u672C_u4FEE_u590D_u5386_u53F2"><a href="#u7248_u672C_u4FEE_u590D_u5386_u53F2" class="headerlink" title="版本修复历史"></a>版本修复历史</h2><blockquote>
-<p>2016年03月04日</p>
-</blockquote>
-<ul>
-<li>文章设置分类</li>
-<li>文章设置标签云</li>
+<h1 id="u7528_u6CD5"><a href="#u7528_u6CD5" class="headerlink" title="用法"></a>用法</h1><h2 id="apt-get__5B_u9009_u9879_5D__u547D_u4EE4"><a href="#apt-get__5B_u9009_u9879_5D__u547D_u4EE4" class="headerlink" title="apt-get [选项] 命令"></a>apt-get [选项] 命令</h2><p> apt-get [选项] install|remove pkg1 [pkg2 …]<br> apt-get [选项] source pkg1 [pkg2 …] </p>
+<p>apt-get 是一个下载安装软件包的简单命令行接口。<br>最常用的命令是update(更新)和install(安装)。 </p>
+<h3 id="u547D_u4EE4"><a href="#u547D_u4EE4" class="headerlink" title="命令"></a>命令</h3><ul>
+<li><strong>update</strong> - 重新获取软件包列表 </li>
+<li><strong>upgrade</strong> - 进行更新 </li>
+<li><strong>install</strong> - 安装新的软件包 </li>
+<li><strong>remove</strong> - 移除软件包 </li>
+<li><strong>autoremove</strong> - 自动移除全部不使用的软件包 </li>
+<li><strong>purge</strong> - 移除软件包和配置文件 </li>
+<li><strong>source</strong> - 下载源码档案 </li>
+<li><strong>build-dep</strong> - 为源码包配置编译依赖 </li>
+<li><strong>dist-upgrade</strong> - 发行版升级, 参见 apt-get(8) </li>
+<li><strong>dselect-upgrade</strong> - 依照 dselect 的选择更新 </li>
+<li><strong>clean</strong> - 清除下载的归档文件 </li>
+<li><strong>autoclean</strong> - 清除旧的的已下载的归档文件 </li>
+<li><strong>check</strong> - 检验是否有损坏的依赖 </li>
 </ul>
-<hr>
+<h3 id="u9009_u9879"><a href="#u9009_u9879" class="headerlink" title="选项"></a>选项</h3><ul>
+<li><strong>-h</strong> 本帮助文件。 </li>
+<li><strong>-q</strong> 输出到日志 - 无进展指示 </li>
+<li><strong>-qq</strong> 不输出信息，错误除外 </li>
+<li><strong>-d</strong> 仅下载 - 不安装或解压归档文件 </li>
+<li><strong>-s</strong> 不实际安装。模拟执行命令 </li>
+<li><strong>-y</strong> 假定对所有的询问选是，不提示 </li>
+<li><strong>-f</strong> 尝试修正系统依赖损坏处 </li>
+<li><strong>-m</strong> 如果归档无法定位，尝试继续 </li>
+<li><strong>-u</strong> 同时显示更新软件包的列表 </li>
+<li><strong>-b</strong> 获取源码包后编译 </li>
+<li><strong>-V</strong> 显示详细的版本号 </li>
+<li><strong>-c=?</strong> 阅读此配置文件 </li>
+<li><strong>-o=?</strong> 设置自定的配置选项，如 -o dir::cache=/tmp </li>
+</ul>
 <blockquote>
-<p>2016年02月21日</p>
+<p><strong>apt-cache search package</strong> 搜索软件包<br><strong>apt-cache show package</strong>  获取包的相关信息，如说明、大小、版本等<br><strong>sudo apt-get install package</strong> 安装包<br><strong>sudo apt-get install package –reinstall</strong>   重新安装包<br><strong>sudo apt-get -f install</strong>   修复安装<br><strong>sudo apt-get remove package</strong> 删除包<br><strong>sudo apt-get remove package –purge</strong> 删除包，包括配置文件等<br><strong>sudo apt-get update</strong>  更新源<br><strong>sudo apt-get upgrade</strong> 更新已安装的包<br><strong>sudo apt-get dist-upgrade</strong> 升级系统<br><strong>apt-cache depends package</strong> 了解使用该包依赖那些包<br><strong>apt-cache rdepends package</strong> 查看该包被哪些包依赖<br><strong>sudo apt-get build-dep package</strong> 安装相关的编译环境<br><strong>apt-get source package</strong>  下载该包的源代码<br><strong>sudo apt-get clean &amp;&amp; sudo apt-get autoclean</strong> 清理无用的包<br><strong>sudo apt-get check</strong> 检查是否有损坏的依赖</p>
 </blockquote>
-<ul>
-<li>设置深色背景</li>
-</ul>
+<hr>
+<h1 id="u6587_u7AE0_u53C2_u8003_u8D44_u6599"><a href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599" class="headerlink" title="文章参考资料"></a>文章参考资料</h1><p><a href="http://blog.51yip.com/linux/1176.html" target="_blank" rel="external">apt-get 命令详解(中文),以及实例</a><br><a href="http://jingyan.baidu.com/article/22a299b51648e09e19376ae7.html" target="_blank" rel="external">Ubuntu下apt-get命令详解</a></p>
 
       
     </div>
@@ -255,10 +277,10 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/02/08/fix_issue/">部署问题</a></p>
+        <p><span>本文标题:</span><a href="/2016/04/08/apt-get/">Ubuntu下apt-get命令详解</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Python白话 的个人博客">Python白话</a></p>
-        <p><span>发布时间:</span>2016年02月08日 - 23时54分</p>
-        <p><span>最后更新:</span>2016年04月07日 - 21时24分</p>
+        <p><span>发布时间:</span>2016年04月08日 - 21时22分</p>
+        <p><span>最后更新:</span>2016年04月08日 - 22时12分</p>
         <p>
             <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
         </p>
@@ -268,18 +290,18 @@
 
 <nav id="article-nav">
   
-    <a href="/2016/03/31/install_Ubuntu_Kylin/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2016/04/08/sublime/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          Geek第一步:安装Ubuntu Kylin系统
+          骑士的利刃：Sublime Text 3
         
       </div>
     </a>
   
   
-    <a href="/2016/02/08/2016_new_year_wish/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">2016 猴年开年寄语</div>
+    <a href="/2016/04/02/why-how-what/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">学习，思维三部曲：Why How What（通过现象看本质）</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -291,7 +313,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#bug"><span class="toc-number">1.</span> <span class="toc-text">bug</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#u5F85_u5B8C_u6210_u4E8B_u9879"><span class="toc-number">1.1.</span> <span class="toc-text">待完成事项</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#u7248_u672C_u4FEE_u590D_u5386_u53F2"><span class="toc-number">1.2.</span> <span class="toc-text">版本修复历史</span></a></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#apt-get_u4ECB_u7ECD"><span class="toc-number">1.</span> <span class="toc-text">apt-get介绍</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u7528_u6CD5"><span class="toc-number">2.</span> <span class="toc-text">用法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#apt-get__5B_u9009_u9879_5D__u547D_u4EE4"><span class="toc-number">2.1.</span> <span class="toc-text">apt-get [选项] 命令</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#u547D_u4EE4"><span class="toc-number">2.1.1.</span> <span class="toc-text">命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#u9009_u9879"><span class="toc-number">2.1.2.</span> <span class="toc-text">选项</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599"><span class="toc-number">3.</span> <span class="toc-text">文章参考资料</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
@@ -353,7 +375,7 @@
     
       <div class="duoshuo" id="comments">
     <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="2016/02/08/fix_issue/" data-title="部署问题" data-url="http://yoursite.com/2016/02/08/fix_issue/"></div>
+    <div class="ds-thread" data-thread-key="2016/04/08/apt-get/" data-title="Ubuntu下apt-get命令详解" data-url="http://yoursite.com/2016/04/08/apt-get/"></div>
     <!-- 多说评论框 end -->
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
@@ -376,18 +398,18 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/03/31/install_Ubuntu_Kylin/" title="上一篇: Geek第一步:安装Ubuntu Kylin系统">
+            <a href="/2016/04/08/sublime/" title="上一篇: 骑士的利刃：Sublime Text 3">
                 <i class="fa fa-angle-left"></i>
             </a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
-            <a href="/2016/02/08/2016_new_year_wish/" title="下一篇: 2016 猴年开年寄语">
+            <a href="/2016/04/02/why-how-what/" title="下一篇: 学习，思维三部曲：Why How What（通过现象看本质）">
                 <i class="fa fa-angle-right"></i>
             </a>
         
     </div>
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/why-how-what/">学习，思维三部曲：Why How What（通过现象看本质）</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/31/install_Ubuntu_Kylin/">Geek第一步:安装Ubuntu Kylin系统</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/fix_issue/">部署问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/2016_new_year_wish/">2016 猴年开年寄语</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/sublime/">骑士的利刃：Sublime Text 3</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/apt-get/">Ubuntu下apt-get命令详解</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/why-how-what/">学习，思维三部曲：Why How What（通过现象看本质）</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/31/install_Ubuntu_Kylin/">Geek第一步：安装Ubuntu Kylin系统</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/issue/">部署问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/2016_new_year_wish/">2016 猴年开年寄语</a></li></ul>
     <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
     <script>
         $(".post-list").addClass("toc-article");

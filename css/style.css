@@ -3281,7 +3281,6 @@ color
   margin: 0.5em auto;
   color: #fff;
   background: rgba(0,0,0,0.27);
-  border: 1px dashed #020202;
   padding: 0.2em 0.6em;
   font-weight: normal;
   -webkit-border-radius: 6px;
@@ -3294,7 +3293,6 @@ color
   margin: 0.5em auto;
   color: #fff;
   background: #5a5a5a;
-  border: 1px dashed #020202;
   padding: 0.2em 0.6em;
   font-weight: normal;
   -webkit-border-radius: 6px;
@@ -3305,7 +3303,6 @@ color
   margin: 0.5em auto;
   color: #fff;
   background: #8e8d8d;
-  border: 1px dashed #020202;
   padding: 0.2em 0.6em;
   font-weight: normal;
   -webkit-border-radius: 6px;
@@ -3315,7 +3312,6 @@ color
 .article-entry h6 {
   margin: 0.5em auto;
   color: #fff;
-  border: 1px dashed #020202;
   padding: 0.2em 0.6em;
   font-weight: normal;
   -webkit-border-radius: 6px;
