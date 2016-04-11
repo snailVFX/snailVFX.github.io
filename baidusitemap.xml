@@ -4,14 +4,31 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/08/sublime/</loc>
-    <lastmod>2016-04-08T15:23:40.809Z</lastmod>
+    <loc>http://yoursite.com/2016/02/08/2016_new_year_wish/</loc>
+    <lastmod>2016-04-11T15:47:30.596Z</lastmod>
     <data>
         <display>
-        <title>骑士的利刃：Sublime Text 3</title>
-        <pubTime>2016-04-08T14:31:22.000Z</pubTime>
+        <title>2016 猴年开年寄语</title>
+        <pubTime>2016-02-07T17:06:55.000Z</pubTime>
         
-        <tag>安装Sublime Text 3</tag>
+        <tag>2016开年寄语</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/11/sublime_plus/</loc>
+    <lastmod>2016-04-11T15:47:01.092Z</lastmod>
+    <data>
+        <display>
+        <title>Sublime Text 3 进阶</title>
+        <pubTime>2016-04-11T15:32:14.000Z</pubTime>
+        
+        <tag>Sublime Text 3进阶</tag>
          
          
            
@@ -25,13 +42,33 @@
     
   <url>
     <loc>http://yoursite.com/2016/03/31/install_Ubuntu_Kylin/</loc>
-    <lastmod>2016-04-08T15:15:43.465Z</lastmod>
+    <lastmod>2016-04-11T15:46:00.772Z</lastmod>
     <data>
         <display>
         <title>Geek第一步：安装Ubuntu Kylin系统</title>
         <pubTime>2016-03-30T16:28:24.000Z</pubTime>
         
         <tag>安装Ubuntu Kylin系统</tag>
+         
+         
+           
+             
+              <breadCrumb title="Ubuntu环境搭建" url="http://yoursite.com/categories/Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/08/sublime/</loc>
+    <lastmod>2016-04-08T15:23:40.809Z</lastmod>
+    <data>
+        <display>
+        <title>骑士的利刃：Sublime Text 3</title>
+        <pubTime>2016-04-08T14:31:22.000Z</pubTime>
+        
+        <tag>安装Sublime Text 3</tag>
          
          
            
@@ -75,23 +112,6 @@
              
               <breadCrumb title="Ubuntu环境搭建" url="http://yoursite.com/categories/Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/02/08/2016_new_year_wish/</loc>
-    <lastmod>2016-04-08T13:37:48.641Z</lastmod>
-    <data>
-        <display>
-        <title>2016 猴年开年寄语</title>
-        <pubTime>2016-02-07T17:06:55.000Z</pubTime>
-        
-        <tag>2016开年寄语</tag>
-         
-         
-           
         </display>
     </data>
     </url>
