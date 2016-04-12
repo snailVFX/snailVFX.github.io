@@ -4,25 +4,8 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/02/08/2016_new_year_wish/</loc>
-    <lastmod>2016-04-11T15:47:30.596Z</lastmod>
-    <data>
-        <display>
-        <title>2016 猴年开年寄语</title>
-        <pubTime>2016-02-07T17:06:55.000Z</pubTime>
-        
-        <tag>2016开年寄语</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2016/04/11/sublime_plus/</loc>
-    <lastmod>2016-04-11T15:47:01.092Z</lastmod>
+    <lastmod>2016-04-12T13:29:01.170Z</lastmod>
     <data>
         <display>
         <title>Sublime Text 3 进阶</title>
@@ -35,6 +18,23 @@
              
               <breadCrumb title="Ubuntu环境搭建" url="http://yoursite.com/categories/Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/02/08/2016_new_year_wish/</loc>
+    <lastmod>2016-04-11T15:47:30.596Z</lastmod>
+    <data>
+        <display>
+        <title>2016 猴年开年寄语</title>
+        <pubTime>2016-02-07T17:06:55.000Z</pubTime>
+        
+        <tag>2016开年寄语</tag>
+         
+         
+           
         </display>
     </data>
     </url>
