@@ -11,7 +11,13 @@
 <meta property="og:url" content="http://yoursite.com/2016/04/15/time-datetime/index.html">
 <meta property="og:site_name" content="Python白话">
 <meta property="og:description" content="python中的时间模块主要有time, datetime。">
-<meta property="og:updated_time" content="2016-04-15T15:54:50.271Z">
+<meta property="og:image" content="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2000-41-51.png">
+<meta property="og:image" content="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2001-17-50.png">
+<meta property="og:image" content="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2001-21-52.png">
+<meta property="og:image" content="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2015-09-06.png">
+<meta property="og:image" content="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2015-17-44.png">
+<meta property="og:image" content="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2016-11-09.png">
+<meta property="og:updated_time" content="2016-04-16T08:19:53.548Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python 日期格式转换">
 <meta name="twitter:description" content="python中的时间模块主要有time, datetime。">
@@ -241,12 +247,12 @@
 <p>asctime(tuple) -&gt;string<br>ctime(float) -&gt;string<br>gmtime(float) -&gt;tuple<br>localtime(float) -&gt;tuple<br>mktime(tuple) -&gt;float<br>strftime(format, tuple) -&gt;format string<br>strptime(formatstring, format) -&gt;tuple<br>time() -&gt; float</p>
 </blockquote>
 <ul>
-<li>上述函数中，除了time()函数直接返回当前时间相对于epoch的秒数外，其他函数都要求有时间的输入，如果没有输入，则默认使用当前时间。<br>另外，strftime和strptime中的format使用下面的格式：</li>
+<li>上述函数中，除了time()函数直接返回当前时间相对于epoch的秒数外，其他函数都要求有时间的输入，如果没有输入，则默认使用当前时间。</li>
+<li>datetime、date、time都提供了strftime()方法，该方法接收一个格式字符串，输出日期时间的字符串表示。</li>
 </ul>
 <blockquote>
-<p><strong>%a</strong> 英文星期简写<br><strong>%A</strong> 英文星期的完全<br><strong>%b</strong> 英文月份的简写<br><strong>%B</strong> 英文月份的完全<br><strong>%c</strong> 显示本地日期时间<br><strong>%d</strong> 日期，取1-31<br><strong>%H</strong> 小时， 0-23<br><strong>%I</strong> 小时， 0-12<br><strong>%m</strong> 月， 01 -12<br><strong>%M</strong> 分钟，1-59<br><strong>%j</strong> 年中当天的天数<br><strong>%w</strong> 显示今天是星期几<br><strong>%W</strong> 第几周<br><strong>%x</strong> 当天日期<br><strong>%X</strong> 本地的当天时间<br><strong>%y</strong> 年份 00-99间<br><strong>%Y</strong> 年份的完整拼写<br><strong>%S</strong> 秒（00-59）</p>
+<p><strong>格式字符</strong>  <strong>意义</strong><br><strong>%a</strong>: 星期的简写。如 星期三为Web<br><strong>%A</strong>: 星期的全写。如 星期三为Wednesday<br><strong>%b</strong>: 月份的简写。如4月份为Apr<br><strong>%B</strong>: 月份的全写。如4月份为April<br><strong>%c</strong>: 显示本地日期时间的字符串表示。（如： 04/07/10 10:43:39）<br><strong>%d</strong>: 日在这个月中的天数（是这个月的第几天,[1-31])<br><strong>%D</strong>: 月/天/年<br><strong>%e</strong>: 在两字符域中，十进制表示的每月的第几天<br><strong>%f</strong>: 微秒（范围[0,999999]）<br><strong>%F</strong>: 显示年-月-日 (‘2016-04-16’)<br><strong>%g</strong>: 年份的后两位数字，使用基于周的年<br><strong>%G</strong>: 年分，使用基于周的年<br><strong>%h</strong>: 简写的月份名<br><strong>%H</strong>: 小时（24小时制，[0, 23]）<br><strong>%I</strong>: 小时（12小时制，[0, 11]）<br><strong>%j</strong>: 日在年中的天数 [001,366]（是当年的第几天）<br><strong>%m</strong>: 月份（[01,12]）<br><strong>%M</strong>: 分钟（[00,59]）<br><strong>%n</strong>: 新行符<br><strong>%p</strong>: AM或者PM<br><strong>%r</strong>: 12小时的时间<br><strong>%R</strong>: 显示小时和分钟：hh:mm<br><strong>%S</strong>: 秒（范围为[00,61]）<br><strong>%t</strong>: 水平制表符<br><strong>%T</strong>: 显示时分秒：hh:mm:ss<br><strong>%u</strong>: 每周的第几天，星期一为第一天 （值从0到6，星期一为0）<br><strong>%U</strong>: 周在当年的周数当年的第几周），星期天作为周的第一天<br><strong>%V</strong>: 每年的第几周，使用基于周的年<br><strong>%w</strong>: 今天在这周的天数，范围为[0, 6]，6表示星期天<br><strong>%W</strong>: 周在当年的周数（是当年的第几周），星期一作为周的第一天<br><strong>%x</strong>: 日期字符串（如：04/07/10）<br><strong>%X</strong>: 时间字符串（如：10:43:39）<br><strong>%y</strong>: 不带世纪的十进制年份（值从0到99）<br><strong>%Y</strong>: 4个数字表示的年份<br><strong>%z</strong>: 与utc时间的间隔 （如果是本地时间，返回空字符串）<br><strong>%Z</strong>: 时区名称（如果是本地时间，返回空字符串）<br><strong>%%</strong>: %% =&gt; %</p>
 </blockquote>
-<hr>
 <p>除了上述的时间转换函数之外，模块还提供了下面的函数：</p>
 <ul>
 <li><strong>clock()</strong> 返回进程的创建时间，以秒计数的float</li>
@@ -256,19 +262,56 @@
 <hr>
 <h2 id="u6C42_u5F53_u524D_u65F6_u95F4"><a href="#u6C42_u5F53_u524D_u65F6_u95F4" class="headerlink" title="求当前时间"></a>求当前时间</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"></span><br><span class="line">lt = time.localtime()</span><br><span class="line">ISOTIMEFORMAT = <span class="string">'%Y-%m-%d-%X'</span></span><br><span class="line">ft = time.strftime(ISOTIMEFORMAT, lt)</span><br><span class="line"><span class="keyword">print</span> ft</span><br></pre></td></tr></table></figure>
 <hr>
-<h1 id="datetime_u6A21_u5757"><a href="#datetime_u6A21_u5757" class="headerlink" title="datetime模块"></a>datetime模块</h1><p>datetime模块定义了两个常量：<br><strong>datetime.MINYEAR</strong>和<strong>datetime.MAXYEAR</strong>，分别表示datetime所能表示的最小、最大年份。其中，<strong>MINYEAR</strong> = 1，<strong>MAXYEAR</strong> = 9999。<br><strong>datetime.date</strong>, 表示日期的类。常用的属性有year, month, day；<br><strong>datetime.time</strong>, 表示时间的类。常用的属性有hour, minute, second, <strong>microsecond</strong>, datetime.datetime：表示日期时间。<br><strong>datetime.timedelta</strong>, 表示时间间隔，即两个时间点之间的长度。<br><strong>datetime.tzinfo</strong>, 与时区有关的相关信息</p>
+<h1 id="datetime_u6A21_u5757"><a href="#datetime_u6A21_u5757" class="headerlink" title="datetime模块"></a>datetime模块</h1><p>datetime模块定义了两个常量</p>
+<blockquote>
+<p><strong>datetime.MINYEAR</strong>和<strong>datetime.MAXYEAR</strong>，分别表示datetime所能表示的最小、最大年份。其中，<strong>MINYEAR</strong> = 1，<strong>MAXYEAR</strong> = 9999。<br><strong>datetime.date</strong>, 表示日期的类。常用的属性有year, month, day；<br><strong>datetime.time</strong>, 表示时间的类。常用的属性有hour, minute, second, <strong>microsecond</strong>, datetime.datetime：表示日期时间。<br><strong>datetime.timedelta</strong>, 表示时间间隔，即两个时间点之间的长度。<br><strong>datetime.tzinfo</strong>, 与时区有关的相关信息</p>
+</blockquote>
 <p><strong>注 ：上面这些类型的对象都是不可变（immutable）的</strong></p>
 <hr>
 <h1 id="u65F6_u95F4_u7C7B_u7684_u8BE6_u7EC6_u4F7F_u7528_u65B9_u5F0F"><a href="#u65F6_u95F4_u7C7B_u7684_u8BE6_u7EC6_u4F7F_u7528_u65B9_u5F0F" class="headerlink" title="时间类的详细使用方式"></a>时间类的详细使用方式</h1><h2 id="date_u7C7B"><a href="#date_u7C7B" class="headerlink" title="date类"></a>date类</h2><p>date类表示一个日期。日期由年、月、日组成。date类的构造函数如下：</p>
 <blockquote>
-<p><strong>class datetime.date(year, month, day)</strong></p>
+<p><strong>class datetime.date(year, month, day)</strong><br> <strong>year</strong>的范围是[MINYEAR, MAXYEAR]，即[1, 9999]；<br><strong>month</strong>的范围是[1, 12]。（月份是从1开始的，不是从0开始的）；<br><strong>day</strong>的最大值根据给定的year, month参数来决定。例如闰年2月份有29天；</p>
 </blockquote>
-<h3 id="u6CE8_u610F_u8981_u70B9"><a href="#u6CE8_u610F_u8981_u70B9" class="headerlink" title="注意要点"></a>注意要点</h3><blockquote>
-<p><strong>year</strong> 的范围是[MINYEAR, MAXYEAR]，即[1, 9999]；<br><strong>month</strong> 的范围是[1, 12]。（月份是从1开始的，不是从0开始的）；<br><strong>day</strong> 的最大值根据给定的year, month参数来决定。例如闰年2月份有29天；</p>
-</blockquote>
-<h3 id="date_u7C7B_u5B9A_u4E49_u4E86_u5E38_u7528_u7C7B_u65B9_u6CD5_u4E0E_u7C7B_u5C5E_u6027"><a href="#date_u7C7B_u5B9A_u4E49_u4E86_u5E38_u7528_u7C7B_u65B9_u6CD5_u4E0E_u7C7B_u5C5E_u6027" class="headerlink" title="date类定义了常用类方法与类属性"></a>date类定义了常用类方法与类属性</h3><blockquote>
+<h3 id="date_u7C7B_u65B9_u6CD5_u4E0E_u7C7B_u5C5E_u6027"><a href="#date_u7C7B_u65B9_u6CD5_u4E0E_u7C7B_u5C5E_u6027" class="headerlink" title="date类方法与类属性"></a>date类方法与类属性</h3><blockquote>
 <p><strong>date.max</strong>、<strong>date.min</strong> date对象所能表示的最大、最小日期；<br><strong>date.resolution</strong> date对象表示日期的最小单位。这里是天。<br><strong>date.today()</strong> 返回一个表示当前本地日期的date对象；<br><strong>date.fromtimestamp(timestamp)</strong> 根据给定的时间戮，返回一个date对象；<br><strong>datetime.fromordinal(ordinal)</strong>将Gregorian日历时间转换为date对象；Gregorian Calendar ：一种日历表示方法，类似于我国的农历，西方国家使用比较多，此处不详细展开讨论。）</p>
 </blockquote>
+<p><img src="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2000-41-51.png" alt=""></p>
+<h3 id="date_u5B9E_u4F8B_u65B9_u6CD5_u548C_u5C5E_u6027"><a href="#date_u5B9E_u4F8B_u65B9_u6CD5_u548C_u5C5E_u6027" class="headerlink" title="date实例方法和属性"></a>date实例方法和属性</h3><blockquote>
+<p><strong>date.year、date.month、date.day</strong>：年、月、日；<br><strong>date.replace(year, month, day)</strong>：生成一个新的日期对象，用参数指定的年，月，日代替原有对象中的属性。（原有对象仍保持不变）<br><strong>date.timetuple()</strong>：返回日期对应的time.struct_time对象；<br><strong>date.toordinal()</strong>：返回日期对应的Gregorian Calendar日期；<br><strong>date.weekday()</strong>：返回weekday，如果是星期一，返回0；如果是星期2，返回1，以此类推；<br><strong>data.isoweekday()</strong>：返回weekday，如果是星期一，返回1；如果是星期2，返回2，以此类推；<br><strong>date.isocalendar()</strong>：返<strong>回格式如(year，month，day)的元组；
+</strong>date.isoformat()<strong>：返回格式如’YYYY-MM-DD’的字符串；
+</strong>date.strftime(fmt)**：自定义格式化字符串。</p>
+</blockquote>
+<p><img src="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2001-17-50.png" alt=""></p>
+<h3 id="date_u91CD_u8F7D_u64CD_u4F5C"><a href="#date_u91CD_u8F7D_u64CD_u4F5C" class="headerlink" title="date重载操作"></a>date重载操作</h3><blockquote>
+<p><strong>date2 = date1 + timedelta</strong> 日期加上一个间隔，返回一个新的日期对象（timedelta将在下面介绍，表示时间间隔）<br><strong>date2 = date1 - timedelta</strong> 日期隔去间隔，返回一个新的日期对象<br><strong>timedelta = date1 - date2</strong> 两个日期相减，返回一个时间间隔对象date1 &lt; date2  # 两个日期进行比较。</p>
+</blockquote>
+<p><strong>注： 对日期进行操作时，要防止日期超出它所能表示的范围。</strong></p>
+<p><img src="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2001-21-52.png" alt=""></p>
+<hr>
+<h2 id="Time_u7C7B"><a href="#Time_u7C7B" class="headerlink" title="Time类"></a>Time类</h2><blockquote>
+<p>time类表示时间，由时、分、秒以及微秒组成。<br>time类的构造函数如下：<br><strong>class datetime.time(hour[ , minute[ , second[ , microsecond[ , tzinfo]]]] )</strong> ：各参数的意义不作解释，这里留意一下参数tzinfo，它表示时区信息。注意一下各参数的取值范围：<br><strong>hour</strong>的范围为[0, 24)，<br><strong>minute</strong>的范围为[0, 60)，<br><strong>second</strong>的范围为[0, 60)，<br><strong>microsecond</strong>的范围为[0, 1000000)。</p>
+</blockquote>
+<h3 id="time_u7C7B_u7C7B_u5C5E_u6027"><a href="#time_u7C7B_u7C7B_u5C5E_u6027" class="headerlink" title="time类类属性"></a>time类类属性</h3><blockquote>
+<p><strong>time.min、time.max</strong>：time类所能表示的最小、最大时间。<br><strong>time.min</strong> = time(0, 0, 0, 0)；<br><strong>time.max</strong> = time(23, 59, 59, 999999)；<br><strong>time.resolution</strong>：时间的最小单位，这里是1微秒；</p>
+</blockquote>
+<h3 id="time_u7C7B_u5B9E_u4F8B_u65B9_u6CD5_u548C_u5C5E_u6027"><a href="#time_u7C7B_u5B9E_u4F8B_u65B9_u6CD5_u548C_u5C5E_u6027" class="headerlink" title="time类实例方法和属性"></a>time类实例方法和属性</h3><blockquote>
+<p><strong>time.hour、time.minute、time.second、time.microsecond</strong>：时、分、秒、微秒；<br><strong>time.tzinfo</strong>：时区信息；<br><strong>time.replace([ hour[ , minute[ , second[ , microsecond[ , tzinfo]]]]] )</strong>：创建一个新的时间对象，用参数指定的时、分、秒、微秒代替原有对象中的属性（原有对象仍保持不变）；<br><strong>time.isoformat()</strong>：返回型如”HH:MM:SS”格式的字符串表示；<br><strong>time.strftime(fmt)</strong>：返回自定义格式化字符串。</p>
+</blockquote>
+<p><img src="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2015-09-06.png" alt=""></p>
+<p>像date一样，也可以对两个time对象进行比较，或者相减返回一个时间间隔对象</p>
+<hr>
+<h2 id="datetime_u7C7B"><a href="#datetime_u7C7B" class="headerlink" title="datetime类"></a>datetime类</h2><blockquote>
+<p>datetime是date与time的结合体，包括date与time的所有信息。它的构造函数如下：<br><strong>datetime.datetime (year, month, day[ , hour[ , minute[ , second[ , microsecond[ , tzinfo]]]]] )</strong>，各参数的含义与date、time的构造函数中的一样，要注意参数值的范围。</p>
+</blockquote>
+<h3 id="datetime_u7C7B_u5C5E_u6027_u4E0E_u65B9_u6CD5"><a href="#datetime_u7C7B_u5C5E_u6027_u4E0E_u65B9_u6CD5" class="headerlink" title="datetime类属性与方法"></a>datetime类属性与方法</h3><blockquote>
+<p><strong>datetime.min、datetime.max</strong>：datetime所能表示的最小值与最大值；<br><strong>datetime.resolution</strong>：datetime最小单位；<br><strong>datetime.today()</strong>：返回一个表示当前本地时间的datetime对象；<br><strong>datetime.now([tz])</strong>：返回一个表示当前本地时间的datetime对象，如果提供了参数tz，则获取tz参数所指时区的本地时间；<br><strong>datetime.utcnow()</strong>：返回一个当前utc时间的datetime对象；<br><strong>datetime.fromtimestamp(timestamp[, tz])</strong>：根据时间戮创建一个datetime对象，参数tz指定时区信息；<br><strong>datetime.utcfromtimestamp(timestamp)</strong>：根据时间戮创建一个datetime对象；<br><strong>datetime.combine(date, time)</strong>：根据date和time，创建一个datetime对象；<br><strong>datetime.strptime(date_string, format)</strong>：将格式字符串转换为datetime对象</p>
+</blockquote>
+<p><img src="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2015-17-44.png" alt=""></p>
+<blockquote>
+<p>datetime类提供的实例方法与属性（很多属性或方法在date和time中已经出现过，在此有类似的意义，这里只罗列这些方法名，具体含义不再逐个展开介绍，可以参考上文对date与time类的讲解。）：<br>datetime.year、month、day、hour、minute、second、microsecond、tzinfo：datetime.date()：获取date对象；<br>datetime.time()：获取time对象；<br>datetime.replace ([ year[ , month[ , day[ , hour[ , minute[ , second[ , microsecond[ , tzinfo]]]]]]]] )<br>datetime.timetuple()<br>datetime.utctimetuple()<br>datetime.toordinal()<br>datetime.weekday()<br>datetime.isocalendar()<br>datetime.isoformat([sep])datetime.ctime ()：返回一个日期时间的C格式字符串，等效于time.ctime(time.mktime(dt.timetuple()))；<br>datetime.strftime(format)</p>
+</blockquote>
+<p>像date一样，也可以对两个datetime对象进行比较，或者相减返回一个时间间隔对象，或者日期时间加上一个间隔返回一个新的日期时间对象</p>
+<p><img src="http://7xsk1w.com2.z0.glb.clouddn.com/2016-04-16%2016-11-09.png" alt=""></p>
 <hr>
 <h1 id="u6587_u7AE0_u53C2_u8003_u8D44_u6599"><a href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599" class="headerlink" title="文章参考资料"></a>文章参考资料</h1><p><a href="http://blog.chinaunix.net/uid-25871104-id-3066340.html" target="_blank" rel="external">python学习笔记—-时间处理 </a></p>
 
@@ -282,7 +325,7 @@
         <p><span>本文标题:</span><a href="/2016/04/15/time-datetime/">python 日期格式转换</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Python白话 的个人博客">Python白话</a></p>
         <p><span>发布时间:</span>2016年04月15日 - 23时46分</p>
-        <p><span>最后更新:</span>2016年04月15日 - 23时54分</p>
+        <p><span>最后更新:</span>2016年04月16日 - 16时19分</p>
         <p>
             <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
         </p>
@@ -306,7 +349,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#time_u6A21_u5757"><span class="toc-number">1.</span> <span class="toc-text">time模块</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#u6C42_u5F53_u524D_u65F6_u95F4"><span class="toc-number">1.1.</span> <span class="toc-text">求当前时间</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#datetime_u6A21_u5757"><span class="toc-number">2.</span> <span class="toc-text">datetime模块</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u65F6_u95F4_u7C7B_u7684_u8BE6_u7EC6_u4F7F_u7528_u65B9_u5F0F"><span class="toc-number">3.</span> <span class="toc-text">时间类的详细使用方式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#date_u7C7B"><span class="toc-number">3.1.</span> <span class="toc-text">date类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#u6CE8_u610F_u8981_u70B9"><span class="toc-number">3.1.1.</span> <span class="toc-text">注意要点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#date_u7C7B_u5B9A_u4E49_u4E86_u5E38_u7528_u7C7B_u65B9_u6CD5_u4E0E_u7C7B_u5C5E_u6027"><span class="toc-number">3.1.2.</span> <span class="toc-text">date类定义了常用类方法与类属性</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599"><span class="toc-number">4.</span> <span class="toc-text">文章参考资料</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#time_u6A21_u5757"><span class="toc-number">1.</span> <span class="toc-text">time模块</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#u6C42_u5F53_u524D_u65F6_u95F4"><span class="toc-number">1.1.</span> <span class="toc-text">求当前时间</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#datetime_u6A21_u5757"><span class="toc-number">2.</span> <span class="toc-text">datetime模块</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u65F6_u95F4_u7C7B_u7684_u8BE6_u7EC6_u4F7F_u7528_u65B9_u5F0F"><span class="toc-number">3.</span> <span class="toc-text">时间类的详细使用方式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#date_u7C7B"><span class="toc-number">3.1.</span> <span class="toc-text">date类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#date_u7C7B_u65B9_u6CD5_u4E0E_u7C7B_u5C5E_u6027"><span class="toc-number">3.1.1.</span> <span class="toc-text">date类方法与类属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#date_u5B9E_u4F8B_u65B9_u6CD5_u548C_u5C5E_u6027"><span class="toc-number">3.1.2.</span> <span class="toc-text">date实例方法和属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#date_u91CD_u8F7D_u64CD_u4F5C"><span class="toc-number">3.1.3.</span> <span class="toc-text">date重载操作</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Time_u7C7B"><span class="toc-number">3.2.</span> <span class="toc-text">Time类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#time_u7C7B_u7C7B_u5C5E_u6027"><span class="toc-number">3.2.1.</span> <span class="toc-text">time类类属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#time_u7C7B_u5B9E_u4F8B_u65B9_u6CD5_u548C_u5C5E_u6027"><span class="toc-number">3.2.2.</span> <span class="toc-text">time类实例方法和属性</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#datetime_u7C7B"><span class="toc-number">3.3.</span> <span class="toc-text">datetime类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#datetime_u7C7B_u5C5E_u6027_u4E0E_u65B9_u6CD5"><span class="toc-number">3.3.1.</span> <span class="toc-text">datetime类属性与方法</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599"><span class="toc-number">4.</span> <span class="toc-text">文章参考资料</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
