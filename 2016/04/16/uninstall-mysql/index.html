@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://yoursite.com/2016/04/16/uninstall-mysql/index.html">
 <meta property="og:site_name" content="Python白话">
 <meta property="og:description" content="卸载/重装Mysql必备步骤">
-<meta property="og:updated_time" content="2016-04-16T15:56:27.132Z">
+<meta property="og:updated_time" content="2016-04-20T12:14:50.072Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="卸载 Mysql">
 <meta name="twitter:description" content="卸载/重装Mysql必备步骤">
@@ -231,11 +231,13 @@
 </blockquote>
 <a id="more"></a>
 <h1 id="u5220_u9664_mysql"><a href="#u5220_u9664_mysql" class="headerlink" title="删除 mysql"></a>删除 mysql</h1><ul>
+<li>sudo apt-get remove mysql-server mysql-client mysql-common</li>
+<li>sudo apt-get –purge remove mysql-server mysql-common mysql-client</li>
 <li>sudo apt-get autoremove mysql* –purge</li>
 <li>sudo apt-get autoremove</li>
 <li>sudo apt-get autoclean</li>
-<li>apt-get purge mysql*</li>
-<li>apt-get purge dbconfig-common</li>
+<li>sudo apt-get purge mysql*</li>
+<li>sudo apt-get purge dbconfig-common</li>
 <li>sudo apt-get remove apparmor<br>（可能有重复）</li>
 </ul>
 <hr>
@@ -259,7 +261,7 @@
         <p><span>本文标题:</span><a href="/2016/04/16/uninstall-mysql/">卸载 Mysql</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Python白话 的个人博客">Python白话</a></p>
         <p><span>发布时间:</span>2016年04月16日 - 23时53分</p>
-        <p><span>最后更新:</span>2016年04月16日 - 23时56分</p>
+        <p><span>最后更新:</span>2016年04月20日 - 20时14分</p>
         <p>
             <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
         </p>
