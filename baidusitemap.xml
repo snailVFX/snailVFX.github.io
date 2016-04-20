@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/04/20/install-mysql/</loc>
+    <lastmod>2016-04-20T15:58:54.623Z</lastmod>
+    <data>
+        <display>
+        <title>安装 Mysql</title>
+        <pubTime>2016-04-20T15:36:11.000Z</pubTime>
+        
+        <tag>安装Mysql</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mysql" url="http://yoursite.com/categories/Mysql/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/04/16/uninstall-mysql/</loc>
-    <lastmod>2016-04-20T12:14:50.072Z</lastmod>
+    <lastmod>2016-04-20T15:41:57.176Z</lastmod>
     <data>
         <display>
         <title>卸载 Mysql</title>
@@ -101,7 +121,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/03/31/install-Ubuntu-Kylin/</loc>
+    <loc>http://yoursite.com/2016/03/31/install-ubuntu-kylin/</loc>
     <lastmod>2016-04-11T15:46:00.772Z</lastmod>
     <data>
         <display>
