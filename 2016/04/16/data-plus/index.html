@@ -5,16 +5,16 @@
   
   <title>Python 时间计算 | Python白话</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="经常获得了一个用户提交的当前日期，我们需要以这个日期为依据返回它的前一天、后一天的日期或者转换操作等。用Python可以非常简单的解决这些关于日期计算的问题">
+  <meta name="description" content="经常获得了一个用户提交的当前日期，我们需要以这个日期为依据返回它的前一天、后一天的日期或者转换操作等。用Python可以非常简单的解决这些关于日期计算的问题不管何时何地，只要我们编程时遇到了跟时间有关的问题，都要想到 datetime 和 time 标准库模块，今天我们就用它内部的方法，详解python操作日期和时间的方法。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python 时间计算">
 <meta property="og:url" content="http://yoursite.com/2016/04/16/data-plus/index.html">
 <meta property="og:site_name" content="Python白话">
-<meta property="og:description" content="经常获得了一个用户提交的当前日期，我们需要以这个日期为依据返回它的前一天、后一天的日期或者转换操作等。用Python可以非常简单的解决这些关于日期计算的问题">
-<meta property="og:updated_time" content="2016-04-16T15:26:58.636Z">
+<meta property="og:description" content="经常获得了一个用户提交的当前日期，我们需要以这个日期为依据返回它的前一天、后一天的日期或者转换操作等。用Python可以非常简单的解决这些关于日期计算的问题不管何时何地，只要我们编程时遇到了跟时间有关的问题，都要想到 datetime 和 time 标准库模块，今天我们就用它内部的方法，详解python操作日期和时间的方法。">
+<meta property="og:updated_time" content="2016-05-07T10:43:31.840Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python 时间计算">
-<meta name="twitter:description" content="经常获得了一个用户提交的当前日期，我们需要以这个日期为依据返回它的前一天、后一天的日期或者转换操作等。用Python可以非常简单的解决这些关于日期计算的问题">
+<meta name="twitter:description" content="经常获得了一个用户提交的当前日期，我们需要以这个日期为依据返回它的前一天、后一天的日期或者转换操作等。用Python可以非常简单的解决这些关于日期计算的问题不管何时何地，只要我们编程时遇到了跟时间有关的问题，都要想到 datetime 和 time 标准库模块，今天我们就用它内部的方法，详解python操作日期和时间的方法。">
   
     <link rel="alternative" href="/atom.xml" title="Python白话" type="application/atom+xml">
   
@@ -227,10 +227,10 @@
       
           
         <blockquote>
-<p>经常获得了一个用户提交的当前日期，我们需要以这个日期为依据返回它的前一天、后一天的日期或者转换操作等。用Python可以非常简单的解决这些关于日期计算的问题</p>
+<p>经常获得了一个用户提交的当前日期，我们需要以这个日期为依据返回它的前一天、后一天的日期或者转换操作等。用Python可以非常简单的解决这些关于日期计算的问题不管何时何地，只要我们编程时遇到了跟时间有关的问题，都要想到 datetime 和 time 标准库模块，今天我们就用它内部的方法，详解python操作日期和时间的方法。</p>
 </blockquote>
 <a id="more"></a>
-<p>不管何时何地，只要我们编程时遇到了跟时间有关的问题，都要想到 datetime 和 time 标准库模块，今天我们就用它内部的方法，详解python操作日期和时间的方法。</p>
+<p>数据库的datetime格式转换成字符串<br><strong>datetime</strong> &gt; &gt; &gt; strftime &gt; &gt; &gt; <strong>string</strong><br>字符串转换成数据库的datetime<br><strong>string</strong> &gt; &gt; &gt; strptime &gt; &gt; &gt; <strong>datetime</strong></p>
 <hr>
 <h1 id="u5C06_u5B57_u7B26_u4E32_u7684_u65F6_u95F4_u8F6C_u6362_u4E3A_u65F6_u95F4_u6233"><a href="#u5C06_u5B57_u7B26_u4E32_u7684_u65F6_u95F4_u8F6C_u6362_u4E3A_u65F6_u95F4_u6233" class="headerlink" title="将字符串的时间转换为时间戳"></a>将字符串的时间转换为时间戳</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">"2016-04-16 22:36:54"</span></span><br><span class="line"><span class="comment"># 将其转换为时间数组</span></span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line">timeArray = time.strptime(a, <span class="string">"%Y-%m-%d %H:%M:%S"</span>)</span><br><span class="line"><span class="comment"># 转换为时间戳:</span></span><br><span class="line">timeStamp = int(time.mktime(timeArray))</span><br><span class="line">timeStamp == <span class="number">1460817414</span></span><br></pre></td></tr></table></figure>
 <hr>
@@ -269,7 +269,7 @@
         <p><span>本文标题:</span><a href="/2016/04/16/data-plus/">Python 时间计算</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Python白话 的个人博客">Python白话</a></p>
         <p><span>发布时间:</span>2016年04月16日 - 22时56分</p>
-        <p><span>最后更新:</span>2016年04月16日 - 23时26分</p>
+        <p><span>最后更新:</span>2016年05月07日 - 18时43分</p>
         <p>
             <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
         </p>
@@ -398,7 +398,7 @@
             </a>
         
     </div>
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/04/21/set-mysl/">设置 Mysql字符集为utf-8</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/20/install-mysql/">安装 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/uninstall-mysql/">卸载 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/data-plus/">Python 时间计算</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/15/date-type/">Python 时间类型</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/11/sublime-plus/">Sublime Text 3 进阶</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/sublime/">骑士的利刃：Sublime Text 3</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/apt-get/">Ubuntu下apt-get命令详解</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/why-how-what/">学习，思维三部曲：Why How What（通过现象看本质）</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/31/install-ubuntu-kylin/">Geek第一步：安装Ubuntu Kylin系统</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/issue/">部署问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/2016-new-year-wish/">2016 猴年开年寄语</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/04/21/set-mysql/">设置 Mysql字符集为utf-8</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/20/install-mysql/">安装 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/uninstall-mysql/">卸载 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/data-plus/">Python 时间计算</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/15/date-type/">Python 时间类型</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/11/sublime-plus/">Sublime Text 3 进阶</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/sublime/">骑士的利刃：Sublime Text 3</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/apt-get/">Ubuntu下apt-get命令详解</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/why-how-what/">学习，思维三部曲：Why How What（通过现象看本质）</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/31/install-ubuntu-kylin/">Geek第一步：安装Ubuntu Kylin系统</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/issue/">部署问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/2016-new-year-wish/">2016 猴年开年寄语</a></li></ul>
     <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
     <script>
         $(".post-list").addClass("toc-article");

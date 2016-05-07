@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://yoursite.com/2016/04/16/uninstall-mysql/index.html">
 <meta property="og:site_name" content="Python白话">
 <meta property="og:description" content="卸载Mysql必备步骤">
-<meta property="og:updated_time" content="2016-04-20T15:41:57.176Z">
+<meta property="og:updated_time" content="2016-05-07T10:51:05.528Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="卸载 Mysql">
 <meta name="twitter:description" content="卸载Mysql必备步骤">
@@ -230,24 +230,10 @@
 <p>卸载Mysql必备步骤</p>
 </blockquote>
 <a id="more"></a>
-<h1 id="u5220_u9664_mysql"><a href="#u5220_u9664_mysql" class="headerlink" title="删除 mysql"></a>删除 mysql</h1><ul>
-<li>sudo apt-get remove mysql-server mysql-client mysql-common</li>
-<li>sudo apt-get –purge remove mysql-server mysql-common mysql-client</li>
-<li>sudo apt-get autoremove mysql* –purge</li>
-<li>sudo apt-get autoremove</li>
-<li>sudo apt-get autoclean</li>
-<li>sudo apt-get purge mysql*</li>
-<li>sudo apt-get purge dbconfig-common</li>
-<li>sudo apt-get remove apparmor<br>（可能有重复）</li>
-</ul>
+<h1 id="u5220_u9664_mysql"><a href="#u5220_u9664_mysql" class="headerlink" title="删除 mysql"></a>删除 mysql</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get remove mysql-server mysql-client mysql-common</span><br><span class="line">sudo apt-get --purge remove mysql-server mysql-common mysql-client</span><br><span class="line">sudo apt-get autoremove mysql* --purge</span><br><span class="line">sudo apt-get autoremove</span><br><span class="line">sudo apt-get autoclean</span><br><span class="line">sudo apt-get purge mysql*</span><br><span class="line">sudo apt-get purge dbconfig-common</span><br><span class="line">sudo apt-get remove apparmor</span><br><span class="line">（可能有重复）</span><br></pre></td></tr></table></figure>
 <hr>
-<h1 id="u6E05_u7406_u6B8B_u7559_u6570_u636E"><a href="#u6E05_u7406_u6B8B_u7559_u6570_u636E" class="headerlink" title="清理残留数据"></a>清理残留数据</h1><ul>
-<li>dpkg -l |grep ^rc|awk ‘{print $2}’ |sudo xargs dpkg -P</li>
-</ul>
-<h1 id="u5220_u9664_u6587_u4EF6_u5939"><a href="#u5220_u9664_u6587_u4EF6_u5939" class="headerlink" title="删除文件夹"></a>删除文件夹</h1><ul>
-<li>sudo rm /var/lib/mysql/ -R</li>
-<li>sudo rm /etc/mysql/ -R</li>
-</ul>
+<h1 id="u6E05_u7406_u6B8B_u7559_u6570_u636E"><a href="#u6E05_u7406_u6B8B_u7559_u6570_u636E" class="headerlink" title="清理残留数据"></a>清理残留数据</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dpkg -l |grep ^rc|awk <span class="string">'&#123;print $2&#125;'</span> |sudo xargs dpkg -P</span><br></pre></td></tr></table></figure>
+<h1 id="u5220_u9664_u6587_u4EF6_u5939"><a href="#u5220_u9664_u6587_u4EF6_u5939" class="headerlink" title="删除文件夹"></a>删除文件夹</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm /var/lib/mysql/ -R</span><br><span class="line">sudo rm /etc/mysql/ -R</span><br></pre></td></tr></table></figure>
 <hr>
 <h1 id="u6587_u7AE0_u53C2_u8003_u8D44_u6599"><a href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599" class="headerlink" title="文章参考资料"></a>文章参考资料</h1><p><a href="http://www.cnblogs.com/steven_oyj/archive/2010/05/24/1742808.html" target="_blank" rel="external">UBUNTU 彻底删除 MYSQL 然后重装 MYSQL</a><br><a href="http://stackoverflow.com/questions/25244606/completely-remove-mysql-ubuntu-14-04-lts" target="_blank" rel="external">Completely Remove MySQL Ubuntu 14.04 LTS</a><br><a href="http://blog.sina.com.cn/s/blog_417ad82e0101el5i.html" target="_blank" rel="external">dpkg: error processing mysql-server (–configure)</a><br><a href="http://www.cnblogs.com/xusir/p/3342722.html" target="_blank" rel="external">安装mysql中遇到的问题</a></p>
 
@@ -261,7 +247,7 @@
         <p><span>本文标题:</span><a href="/2016/04/16/uninstall-mysql/">卸载 Mysql</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Python白话 的个人博客">Python白话</a></p>
         <p><span>发布时间:</span>2016年04月16日 - 23时53分</p>
-        <p><span>最后更新:</span>2016年04月20日 - 23时41分</p>
+        <p><span>最后更新:</span>2016年05月07日 - 18时51分</p>
         <p>
             <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
         </p>
@@ -390,7 +376,7 @@
             </a>
         
     </div>
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/04/21/set-mysl/">设置 Mysql字符集为utf-8</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/20/install-mysql/">安装 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/uninstall-mysql/">卸载 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/data-plus/">Python 时间计算</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/15/date-type/">Python 时间类型</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/11/sublime-plus/">Sublime Text 3 进阶</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/sublime/">骑士的利刃：Sublime Text 3</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/apt-get/">Ubuntu下apt-get命令详解</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/why-how-what/">学习，思维三部曲：Why How What（通过现象看本质）</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/31/install-ubuntu-kylin/">Geek第一步：安装Ubuntu Kylin系统</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/issue/">部署问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/2016-new-year-wish/">2016 猴年开年寄语</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/04/21/set-mysql/">设置 Mysql字符集为utf-8</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/20/install-mysql/">安装 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/uninstall-mysql/">卸载 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/data-plus/">Python 时间计算</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/15/date-type/">Python 时间类型</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/11/sublime-plus/">Sublime Text 3 进阶</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/sublime/">骑士的利刃：Sublime Text 3</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/apt-get/">Ubuntu下apt-get命令详解</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/why-how-what/">学习，思维三部曲：Why How What（通过现象看本质）</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/31/install-ubuntu-kylin/">Geek第一步：安装Ubuntu Kylin系统</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/issue/">部署问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/2016-new-year-wish/">2016 猴年开年寄语</a></li></ul>
     <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
     <script>
         $(".post-list").addClass("toc-article");
