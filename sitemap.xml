@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/04/20/install-mysql/</loc>
+    
+    <lastmod>2016-05-09T13:31:46.953Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/04/16/uninstall-mysql/</loc>
+    
+    <lastmod>2016-05-09T11:51:33.775Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/04/21/set-mysql/</loc>
     
-    <lastmod>2016-05-07T11:03:00.460Z</lastmod>
+    <lastmod>2016-05-07T15:52:22.862Z</lastmod>
     
   </url>
   
@@ -19,20 +33,6 @@
     <loc>http://yoursite.com/2016/04/08/apt-get/</loc>
     
     <lastmod>2016-05-07T10:52:09.560Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/04/20/install-mysql/</loc>
-    
-    <lastmod>2016-05-07T10:51:48.088Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/04/16/uninstall-mysql/</loc>
-    
-    <lastmod>2016-05-07T10:51:05.528Z</lastmod>
     
   </url>
   

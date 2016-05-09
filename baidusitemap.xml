@@ -4,8 +4,48 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/04/20/install-mysql/</loc>
+    <lastmod>2016-05-09T13:31:46.953Z</lastmod>
+    <data>
+        <display>
+        <title>安装 Mysql</title>
+        <pubTime>2016-04-20T15:36:11.000Z</pubTime>
+        
+        <tag>安装Mysql</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mysql" url="http://yoursite.com/categories/Mysql/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/16/uninstall-mysql/</loc>
+    <lastmod>2016-05-09T11:51:33.775Z</lastmod>
+    <data>
+        <display>
+        <title>卸载 Mysql</title>
+        <pubTime>2016-04-16T15:53:48.000Z</pubTime>
+        
+        <tag>卸载Mysql</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mysql" url="http://yoursite.com/categories/Mysql/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/04/21/set-mysql/</loc>
-    <lastmod>2016-05-07T11:03:00.460Z</lastmod>
+    <lastmod>2016-05-07T15:52:22.862Z</lastmod>
     <data>
         <display>
         <title>设置 Mysql字符集为utf-8</title>
@@ -57,46 +97,6 @@
            
              
               <breadCrumb title="Ubuntu环境搭建" url="http://yoursite.com/categories/Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/04/20/install-mysql/</loc>
-    <lastmod>2016-05-07T10:51:48.088Z</lastmod>
-    <data>
-        <display>
-        <title>安装 Mysql</title>
-        <pubTime>2016-04-20T15:36:11.000Z</pubTime>
-        
-        <tag>安装Mysql</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mysql" url="http://yoursite.com/categories/Mysql/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/04/16/uninstall-mysql/</loc>
-    <lastmod>2016-05-07T10:51:05.528Z</lastmod>
-    <data>
-        <display>
-        <title>卸载 Mysql</title>
-        <pubTime>2016-04-16T15:53:48.000Z</pubTime>
-        
-        <tag>卸载Mysql</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mysql" url="http://yoursite.com/categories/Mysql/"/>
           
         </display>
     </data>
