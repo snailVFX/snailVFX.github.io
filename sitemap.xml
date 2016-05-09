@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/05/09/pip/</loc>
+    
+    <lastmod>2016-05-09T14:23:45.525Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/04/20/install-mysql/</loc>
     
     <lastmod>2016-05-09T13:31:46.953Z</lastmod>

@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>卸载 Mysql | Python白话</title>
+  <title>Python Pip | Python白话</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="卸载Mysql必备步骤">
+  <meta name="description" content="pip 是一个安装和管理 Python 包的工具 , 是 easy_install 的一个替换品。本文将详细说明 安装 pip 的方法和 使用 pip 的一些基本操作如安装、更新和卸载 python 包。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="卸载 Mysql">
-<meta property="og:url" content="http://yoursite.com/2016/04/16/uninstall-mysql/index.html">
+<meta property="og:title" content="Python Pip">
+<meta property="og:url" content="http://yoursite.com/2016/05/09/pip/index.html">
 <meta property="og:site_name" content="Python白话">
-<meta property="og:description" content="卸载Mysql必备步骤">
-<meta property="og:updated_time" content="2016-05-09T11:51:33.775Z">
+<meta property="og:description" content="pip 是一个安装和管理 Python 包的工具 , 是 easy_install 的一个替换品。本文将详细说明 安装 pip 的方法和 使用 pip 的一些基本操作如安装、更新和卸载 python 包。">
+<meta property="og:updated_time" content="2016-05-09T14:23:45.525Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="卸载 Mysql">
-<meta name="twitter:description" content="卸载Mysql必备步骤">
+<meta name="twitter:title" content="Python Pip">
+<meta name="twitter:description" content="pip 是一个安装和管理 Python 包的工具 , 是 easy_install 的一个替换品。本文将详细说明 安装 pip 的方法和 使用 pip 的一些基本操作如安装、更新和卸载 python 包。">
   
     <link rel="alternative" href="/atom.xml" title="Python白话" type="application/atom+xml">
   
@@ -184,11 +184,11 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap"><article id="post-uninstall-mysql" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-pip" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/04/16/uninstall-mysql/" class="article-date">
-      <time datetime="2016-04-16T15:53:48.000Z" itemprop="datePublished">2016-04-16</time>
+      <a href="/2016/05/09/pip/" class="article-date">
+      <time datetime="2016-05-09T14:22:01.000Z" itemprop="datePublished">2016-05-09</time>
 </a>
     </div>
   
@@ -201,7 +201,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      卸载 Mysql
+      Python Pip
     </h1>
   
 
@@ -210,13 +210,13 @@
       <div class="article-info article-info-post">
         
     <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Mysql/">Mysql</a>
+    <a class="article-category-link" href="/categories/Python/">Python</a>
     </div>
 
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/卸载Mysql/">卸载Mysql</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pip管理工具/">Pip管理工具</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -226,17 +226,20 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <blockquote>
-<p>卸载Mysql必备步骤</p>
-</blockquote>
+        <p>pip 是一个安装和管理 Python 包的工具 , 是 easy_install 的一个替换品。本文将详细说明 安装 pip 的方法和 使用 pip 的一些基本操作如安装、更新和卸载 python 包。</p>
 <a id="more"></a>
-<h1 id="u5220_u9664_u6587_u4EF6_u5939"><a href="#u5220_u9664_u6587_u4EF6_u5939" class="headerlink" title="删除文件夹"></a>删除文件夹</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm /var/lib/mysql/ -R</span><br><span class="line">sudo rm /etc/mysql/ -R</span><br></pre></td></tr></table></figure>
+<h1 id="u5B89_u88C5_u5305"><a href="#u5B89_u88C5_u5305" class="headerlink" title="安装包"></a>安装包</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install</span><br></pre></td></tr></table></figure>
+<h1 id="u66F4_u65B0_u5305"><a href="#u66F4_u65B0_u5305" class="headerlink" title="更新包"></a>更新包</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --upgrade [包名称]</span><br></pre></td></tr></table></figure>
+<h1 id="u67E5_u770B_u5305_u5217_u8868"><a href="#u67E5_u770B_u5305_u5217_u8868" class="headerlink" title="查看包列表"></a>查看包列表</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip list</span><br></pre></td></tr></table></figure>
+<h1 id="u83B7_u53D6_u8FC7_u671F_u7684_u5E93"><a href="#u83B7_u53D6_u8FC7_u671F_u7684_u5E93" class="headerlink" title="获取过期的库"></a>获取过期的库</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip list --outdated</span><br></pre></td></tr></table></figure>
+<h1 id="u5378_u8F7D_u5305"><a href="#u5378_u8F7D_u5305" class="headerlink" title="卸载包"></a>卸载包</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip uninstall [包名称]</span><br></pre></td></tr></table></figure>
+<h1 id="u67E5_u770B_u5E93_u4FE1_u606F"><a href="#u67E5_u770B_u5E93_u4FE1_u606F" class="headerlink" title="查看库信息"></a>查看库信息</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip show [包名称]</span><br></pre></td></tr></table></figure>
+<h1 id="u4E00_u952E_u5347_u7EA7_u6240_u6709python_u5305"><a href="#u4E00_u952E_u5347_u7EA7_u6240_u6709python_u5305" class="headerlink" title="一键升级所有python包"></a>一键升级所有python包</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -U distribute</span><br></pre></td></tr></table></figure>
+<p>由于使用了mysql-connector-python的包，在安装时要使用 –allow-external mysql-connector-python 参数，所以在升级时，也应该加上该参数，命令行为：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -U distribute &amp;&amp; pip freeze --local | grep -v <span class="string">'^\-e'</span> | cut -d = -f <span class="number">1</span>  | xargs pip install -U --allow-external mysql-connector-python</span><br></pre></td></tr></table></figure>
 <hr>
-<h1 id="u5220_u9664_mysql"><a href="#u5220_u9664_mysql" class="headerlink" title="删除 mysql"></a>删除 mysql</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get autoremove mysql* --purge</span><br><span class="line">需要点击是</span><br><span class="line">sudo apt-get autoremove</span><br><span class="line">sudo apt-get autoclean</span><br><span class="line">sudo apt-get remove apparmor</span><br><span class="line">（可能有重复）</span><br></pre></td></tr></table></figure>
-<hr>
-<h1 id="u6E05_u7406_u6B8B_u7559_u6570_u636E"><a href="#u6E05_u7406_u6B8B_u7559_u6570_u636E" class="headerlink" title="清理残留数据"></a>清理残留数据</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dpkg -l |grep ^rc|awk <span class="string">'&#123;print $2&#125;'</span> |sudo xargs dpkg -P</span><br></pre></td></tr></table></figure>
-<hr>
-<h1 id="u6587_u7AE0_u53C2_u8003_u8D44_u6599"><a href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599" class="headerlink" title="文章参考资料"></a>文章参考资料</h1><p><a href="http://www.cnblogs.com/steven_oyj/archive/2010/05/24/1742808.html" target="_blank" rel="external">UBUNTU 彻底删除 MYSQL 然后重装 MYSQL</a><br><a href="http://stackoverflow.com/questions/25244606/completely-remove-mysql-ubuntu-14-04-lts" target="_blank" rel="external">Completely Remove MySQL Ubuntu 14.04 LTS</a><br><a href="http://blog.sina.com.cn/s/blog_417ad82e0101el5i.html" target="_blank" rel="external">dpkg: error processing mysql-server (–configure)</a><br><a href="http://www.cnblogs.com/xusir/p/3342722.html" target="_blank" rel="external">安装mysql中遇到的问题</a></p>
+<h1 id="u6587_u7AE0_u53C2_u8003_u8D44_u6599"><a href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599" class="headerlink" title="文章参考资料"></a>文章参考资料</h1><p><a href="http://my.oschina.net/letiantian/blog/351237" target="_blank" rel="external">Python： pip常见的使用方法</a></p>
+<p><a href="http://blog.bbzhh.com/index.php/archives/48.html" target="_blank" rel="external">一行命令升级所有pip安装的Python包</a></p>
 
       
     </div>
@@ -245,10 +248,10 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/04/16/uninstall-mysql/">卸载 Mysql</a></p>
+        <p><span>本文标题:</span><a href="/2016/05/09/pip/">Python Pip</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Python白话 的个人博客">Python白话</a></p>
-        <p><span>发布时间:</span>2016年04月16日 - 23时53分</p>
-        <p><span>最后更新:</span>2016年05月09日 - 19时51分</p>
+        <p><span>发布时间:</span>2016年05月09日 - 22时22分</p>
+        <p><span>最后更新:</span>2016年05月09日 - 22时23分</p>
         <p>
             <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
         </p>
@@ -258,18 +261,9 @@
 
 <nav id="article-nav">
   
-    <a href="/2016/04/20/install-mysql/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          安装 Mysql
-        
-      </div>
-    </a>
   
-  
-    <a href="/2016/04/16/data-plus/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Python 时间计算</div>
+    <a href="/2016/04/21/set-mysql/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">设置 Mysql字符集为utf-8</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -281,7 +275,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#u5220_u9664_u6587_u4EF6_u5939"><span class="toc-number">1.</span> <span class="toc-text">删除文件夹</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u5220_u9664_mysql"><span class="toc-number">2.</span> <span class="toc-text">删除 mysql</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u6E05_u7406_u6B8B_u7559_u6570_u636E"><span class="toc-number">3.</span> <span class="toc-text">清理残留数据</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599"><span class="toc-number">4.</span> <span class="toc-text">文章参考资料</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#u5B89_u88C5_u5305"><span class="toc-number">1.</span> <span class="toc-text">安装包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u66F4_u65B0_u5305"><span class="toc-number">2.</span> <span class="toc-text">更新包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u67E5_u770B_u5305_u5217_u8868"><span class="toc-number">3.</span> <span class="toc-text">查看包列表</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u83B7_u53D6_u8FC7_u671F_u7684_u5E93"><span class="toc-number">4.</span> <span class="toc-text">获取过期的库</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u5378_u8F7D_u5305"><span class="toc-number">5.</span> <span class="toc-text">卸载包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u67E5_u770B_u5E93_u4FE1_u606F"><span class="toc-number">6.</span> <span class="toc-text">查看库信息</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u4E00_u952E_u5347_u7EA7_u6240_u6709python_u5305"><span class="toc-number">7.</span> <span class="toc-text">一键升级所有python包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599"><span class="toc-number">8.</span> <span class="toc-text">文章参考资料</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
@@ -343,7 +337,7 @@
     
       <div class="duoshuo" id="comments">
     <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="2016/04/16/uninstall-mysql/" data-title="卸载 Mysql" data-url="http://yoursite.com/2016/04/16/uninstall-mysql/"></div>
+    <div class="ds-thread" data-thread-key="2016/05/09/pip/" data-title="Python Pip" data-url="http://yoursite.com/2016/05/09/pip/"></div>
     <!-- 多说评论框 end -->
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
@@ -366,13 +360,11 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/04/20/install-mysql/" title="上一篇: 安装 Mysql">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
-            <a href="/2016/04/16/data-plus/" title="下一篇: Python 时间计算">
+            <a href="/2016/04/21/set-mysql/" title="下一篇: 设置 Mysql字符集为utf-8">
                 <i class="fa fa-angle-right"></i>
             </a>
         

@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/05/09/pip/</loc>
+    <lastmod>2016-05-09T14:23:45.525Z</lastmod>
+    <data>
+        <display>
+        <title>Python Pip</title>
+        <pubTime>2016-05-09T14:22:01.000Z</pubTime>
+        
+        <tag>Pip管理工具</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/04/20/install-mysql/</loc>
     <lastmod>2016-05-09T13:31:46.953Z</lastmod>
     <data>
