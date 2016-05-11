@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/02/08/issue/</loc>
+    
+    <lastmod>2016-05-11T14:17:28.881Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/04/02/why-how-what/</loc>
+    
+    <lastmod>2016-05-11T14:16:41.597Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/05/09/pip/</loc>
     
-    <lastmod>2016-05-09T14:25:39.157Z</lastmod>
+    <lastmod>2016-05-11T14:15:13.117Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/05/11/uninstall-youker/</loc>
+    
+    <lastmod>2016-05-11T14:14:14.109Z</lastmod>
     
   </url>
   
@@ -79,23 +100,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/02/08/issue/</loc>
-    
-    <lastmod>2016-04-08T14:13:39.513Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2016-04-02T13:48:01.747Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/04/02/why-how-what/</loc>
-    
-    <lastmod>2016-04-02T12:25:25.299Z</lastmod>
     
   </url>
   

@@ -4,8 +4,42 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/02/08/issue/</loc>
+    <lastmod>2016-05-11T14:17:28.881Z</lastmod>
+    <data>
+        <display>
+        <title>部署问题</title>
+        <pubTime>2016-02-08T15:54:05.000Z</pubTime>
+        
+        <tag>issue</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/02/why-how-what/</loc>
+    <lastmod>2016-05-11T14:16:41.597Z</lastmod>
+    <data>
+        <display>
+        <title>学习，思维三部曲：Why How What（通过现象看本质）</title>
+        <pubTime>2016-04-02T12:10:30.000Z</pubTime>
+        
+        <tag>思考</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/05/09/pip/</loc>
-    <lastmod>2016-05-09T14:25:39.157Z</lastmod>
+    <lastmod>2016-05-11T14:15:13.117Z</lastmod>
     <data>
         <display>
         <title>Python Pip工具</title>
@@ -16,7 +50,27 @@
          
            
              
-              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
+              <breadCrumb title="Python标准库" url="http://yoursite.com/categories/Python%E6%A0%87%E5%87%86%E5%BA%93/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/05/11/uninstall-youker/</loc>
+    <lastmod>2016-05-11T14:14:14.109Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu Kylin 卸载优客助手</title>
+        <pubTime>2016-05-11T14:11:57.000Z</pubTime>
+        
+        <tag>卸载优客助手</tag>
+         
+         
+           
+             
+              <breadCrumb title="Ubuntu环境搭建" url="http://yoursite.com/categories/Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
           
         </display>
     </data>
@@ -220,39 +274,5 @@
     </url>
 
     
-  <url>
-    <loc>http://yoursite.com/2016/02/08/issue/</loc>
-    <lastmod>2016-04-08T14:13:39.513Z</lastmod>
-    <data>
-        <display>
-        <title>部署问题</title>
-        <pubTime>2016-02-08T15:54:05.000Z</pubTime>
-        
-        <tag>issue</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://yoursite.com/2016/04/02/why-how-what/</loc>
-    <lastmod>2016-04-02T12:25:25.299Z</lastmod>
-    <data>
-        <display>
-        <title>学习，思维三部曲：Why How What（通过现象看本质）</title>
-        <pubTime>2016-04-02T12:10:30.000Z</pubTime>
-        
-        <tag>思考</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
 </urlset>
