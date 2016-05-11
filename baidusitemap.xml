@@ -4,16 +4,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/04/08/apt-get/</loc>
-    <lastmod>2016-05-11T15:32:00.120Z</lastmod>
+    <loc>http://yoursite.com/2016/05/11/virtualenv/</loc>
+    <lastmod>2016-05-11T15:52:25.648Z</lastmod>
     <data>
         <display>
-        <title>Ubuntu下apt-get和dpkg命令详解</title>
-        <pubTime>2016-04-08T13:22:19.000Z</pubTime>
+        <title>python三大神器之一：virtualenv虚拟环境</title>
+        <pubTime>2016-05-11T14:51:43.000Z</pubTime>
         
-        <tag>apt-get命令</tag>
-         
-        <tag>dpkg命令</tag>
+        <tag>搭建virtualenv虚拟环境</tag>
          
          
            
@@ -26,14 +24,36 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/05/11/virtualenv/</loc>
-    <lastmod>2016-05-11T15:08:02.744Z</lastmod>
+    <loc>http://yoursite.com/2016/05/09/pip/</loc>
+    <lastmod>2016-05-11T15:44:00.768Z</lastmod>
     <data>
         <display>
-        <title>python三大神器之一：virtualenv虚拟环境</title>
-        <pubTime>2016-05-11T14:51:43.000Z</pubTime>
+        <title>Python Pip工具</title>
+        <pubTime>2016-05-09T14:22:01.000Z</pubTime>
         
-        <tag>搭建virtualenv虚拟环境</tag>
+        <tag>Pip管理工具</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python标准库" url="http://yoursite.com/categories/Python%E6%A0%87%E5%87%86%E5%BA%93/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/08/apt-get/</loc>
+    <lastmod>2016-05-11T15:32:00.120Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu下apt-get和dpkg命令详解</title>
+        <pubTime>2016-04-08T13:22:19.000Z</pubTime>
+        
+        <tag>apt-get命令</tag>
+         
+        <tag>dpkg命令</tag>
          
          
            
@@ -74,26 +94,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/05/09/pip/</loc>
-    <lastmod>2016-05-11T14:15:13.117Z</lastmod>
-    <data>
-        <display>
-        <title>Python Pip工具</title>
-        <pubTime>2016-05-09T14:22:01.000Z</pubTime>
-        
-        <tag>Pip管理工具</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python标准库" url="http://yoursite.com/categories/Python%E6%A0%87%E5%87%86%E5%BA%93/"/>
-          
         </display>
     </data>
     </url>

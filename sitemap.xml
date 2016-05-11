@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2016/04/08/apt-get/</loc>
+    <loc>http://yoursite.com/2016/05/11/virtualenv/</loc>
     
-    <lastmod>2016-05-11T15:32:00.120Z</lastmod>
+    <lastmod>2016-05-11T15:52:25.648Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/05/11/virtualenv/</loc>
+    <loc>http://yoursite.com/2016/05/09/pip/</loc>
     
-    <lastmod>2016-05-11T15:08:02.744Z</lastmod>
+    <lastmod>2016-05-11T15:44:00.768Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/04/08/apt-get/</loc>
+    
+    <lastmod>2016-05-11T15:32:00.120Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>http://yoursite.com/2016/04/02/why-how-what/</loc>
     
     <lastmod>2016-05-11T14:16:41.597Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/05/09/pip/</loc>
-    
-    <lastmod>2016-05-11T14:15:13.117Z</lastmod>
     
   </url>
   
