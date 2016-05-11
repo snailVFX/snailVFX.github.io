@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/04/08/apt-get/</loc>
+    
+    <lastmod>2016-05-11T15:32:00.120Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/05/11/virtualenv/</loc>
+    
+    <lastmod>2016-05-11T15:08:02.744Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/02/08/issue/</loc>
     
     <lastmod>2016-05-11T14:17:28.881Z</lastmod>
@@ -54,13 +68,6 @@
     <loc>http://yoursite.com/2016/04/08/sublime/</loc>
     
     <lastmod>2016-05-07T10:53:50.848Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/04/08/apt-get/</loc>
-    
-    <lastmod>2016-05-07T10:52:09.560Z</lastmod>
     
   </url>
   

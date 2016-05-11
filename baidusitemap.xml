@@ -4,6 +4,48 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/04/08/apt-get/</loc>
+    <lastmod>2016-05-11T15:32:00.120Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu下apt-get和dpkg命令详解</title>
+        <pubTime>2016-04-08T13:22:19.000Z</pubTime>
+        
+        <tag>apt-get命令</tag>
+         
+        <tag>dpkg命令</tag>
+         
+         
+           
+             
+              <breadCrumb title="Ubuntu环境搭建" url="http://yoursite.com/categories/Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/05/11/virtualenv/</loc>
+    <lastmod>2016-05-11T15:08:02.744Z</lastmod>
+    <data>
+        <display>
+        <title>python三大神器之一：virtualenv虚拟环境</title>
+        <pubTime>2016-05-11T14:51:43.000Z</pubTime>
+        
+        <tag>搭建virtualenv虚拟环境</tag>
+         
+         
+           
+             
+              <breadCrumb title="Ubuntu环境搭建" url="http://yoursite.com/categories/Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/02/08/issue/</loc>
     <lastmod>2016-05-11T14:17:28.881Z</lastmod>
     <data>
@@ -146,26 +188,6 @@
         <pubTime>2016-04-08T14:31:22.000Z</pubTime>
         
         <tag>安装Sublime Text 3</tag>
-         
-         
-           
-             
-              <breadCrumb title="Ubuntu环境搭建" url="http://yoursite.com/categories/Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/04/08/apt-get/</loc>
-    <lastmod>2016-05-07T10:52:09.560Z</lastmod>
-    <data>
-        <display>
-        <title>Ubuntu下apt-get命令详解</title>
-        <pubTime>2016-04-08T13:22:19.000Z</pubTime>
-        
-        <tag>熟悉apt-get命令</tag>
          
          
            
