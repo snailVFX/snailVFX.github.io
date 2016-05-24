@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://yoursite.com/2016/05/09/pip/index.html">
 <meta property="og:site_name" content="Python白话">
 <meta property="og:description" content="pip 是一个安装和管理 Python 包的工具 , 是 easy_install 的一个替换品。本文将详细说明 安装 pip 的方法和 使用 pip 的一些基本操作如安装、更新和卸载 python 包。">
-<meta property="og:updated_time" content="2016-05-11T15:44:00.768Z">
+<meta property="og:updated_time" content="2016-05-24T13:33:42.455Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python Pip工具">
 <meta name="twitter:description" content="pip 是一个安装和管理 Python 包的工具 , 是 easy_install 的一个替换品。本文将详细说明 安装 pip 的方法和 使用 pip 的一些基本操作如安装、更新和卸载 python 包。">
@@ -126,7 +126,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/2016开年寄语/" style="font-size: 10px;">2016开年寄语</a> <a href="/tags/Pip管理工具/" style="font-size: 10px;">Pip管理工具</a> <a href="/tags/Sublime-Text-3进阶/" style="font-size: 10px;">Sublime Text 3进阶</a> <a href="/tags/apt-get命令/" style="font-size: 10px;">apt-get命令</a> <a href="/tags/dpkg命令/" style="font-size: 10px;">dpkg命令</a> <a href="/tags/issue/" style="font-size: 10px;">issue</a> <a href="/tags/卸载Mysql/" style="font-size: 10px;">卸载Mysql</a> <a href="/tags/卸载优客助手/" style="font-size: 10px;">卸载优客助手</a> <a href="/tags/安装Mysql/" style="font-size: 10px;">安装Mysql</a> <a href="/tags/安装Sublime-Text-3/" style="font-size: 10px;">安装Sublime Text 3</a> <a href="/tags/安装Ubuntu-Kylin系统/" style="font-size: 10px;">安装Ubuntu Kylin系统</a> <a href="/tags/思考/" style="font-size: 10px;">思考</a> <a href="/tags/搭建virtualenv虚拟环境/" style="font-size: 10px;">搭建virtualenv虚拟环境</a> <a href="/tags/时间类型/" style="font-size: 10px;">时间类型</a> <a href="/tags/时间计算/" style="font-size: 10px;">时间计算</a> <a href="/tags/设置Mysql/" style="font-size: 10px;">设置Mysql</a>
+                        <a href="/tags/2016开年寄语/" style="font-size: 10px;">2016开年寄语</a> <a href="/tags/Pip管理工具/" style="font-size: 10px;">Pip管理工具</a> <a href="/tags/Sublime-Text-3进阶/" style="font-size: 10px;">Sublime Text 3进阶</a> <a href="/tags/apt-get命令/" style="font-size: 10px;">apt-get命令</a> <a href="/tags/dpkg命令/" style="font-size: 10px;">dpkg命令</a> <a href="/tags/issue/" style="font-size: 10px;">issue</a> <a href="/tags/卸载Mysql/" style="font-size: 10px;">卸载Mysql</a> <a href="/tags/安装Mysql/" style="font-size: 10px;">安装Mysql</a> <a href="/tags/安装Sublime-Text-3/" style="font-size: 10px;">安装Sublime Text 3</a> <a href="/tags/安装Ubuntu系统/" style="font-size: 10px;">安装Ubuntu系统</a> <a href="/tags/思考/" style="font-size: 10px;">思考</a> <a href="/tags/搭建virtualenv虚拟环境/" style="font-size: 10px;">搭建virtualenv虚拟环境</a> <a href="/tags/时间类型/" style="font-size: 10px;">时间类型</a> <a href="/tags/时间计算/" style="font-size: 10px;">时间计算</a> <a href="/tags/设置Mysql/" style="font-size: 10px;">设置Mysql</a>
                     </div>
                 </section>
                 
@@ -230,14 +230,7 @@
 <p>pip 是一个安装和管理 Python 包的工具 , 是 easy_install 的一个替换品。本文将详细说明 安装 pip 的方法和 使用 pip 的一些基本操作如安装、更新和卸载 python 包。</p>
 </blockquote>
 <a id="more"></a>
-<h1 id="u5B89_u88C5Pip"><a href="#u5B89_u88C5Pip" class="headerlink" title="安装Pip"></a>安装Pip</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install python-pip python-dev build-essential </span><br><span class="line">sudo pip install --upgrade pip </span><br><span class="line">sudo pip install --upgrade virtualenv</span><br></pre></td></tr></table></figure>
-<h1 id="u5B89_u88C5_u5305"><a href="#u5B89_u88C5_u5305" class="headerlink" title="安装包"></a>安装包</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install</span><br></pre></td></tr></table></figure>
-<h1 id="u66F4_u65B0_u5305"><a href="#u66F4_u65B0_u5305" class="headerlink" title="更新包"></a>更新包</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install --upgrade [包名称]</span><br></pre></td></tr></table></figure>
-<h1 id="u67E5_u770B_u5305_u5217_u8868"><a href="#u67E5_u770B_u5305_u5217_u8868" class="headerlink" title="查看包列表"></a>查看包列表</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip list</span><br></pre></td></tr></table></figure>
-<h1 id="u83B7_u53D6_u8FC7_u671F_u7684_u5E93"><a href="#u83B7_u53D6_u8FC7_u671F_u7684_u5E93" class="headerlink" title="获取过期的库"></a>获取过期的库</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip list --outdated</span><br></pre></td></tr></table></figure>
-<h1 id="u5378_u8F7D_u5305"><a href="#u5378_u8F7D_u5305" class="headerlink" title="卸载包"></a>卸载包</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip uninstall [包名称]</span><br></pre></td></tr></table></figure>
-<h1 id="u67E5_u770B_u5E93_u4FE1_u606F"><a href="#u67E5_u770B_u5E93_u4FE1_u606F" class="headerlink" title="查看库信息"></a>查看库信息</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip show [包名称]</span><br></pre></td></tr></table></figure>
-<h1 id="u4E00_u952E_u5347_u7EA7_u6240_u6709python_u5305"><a href="#u4E00_u952E_u5347_u7EA7_u6240_u6709python_u5305" class="headerlink" title="一键升级所有python包"></a>一键升级所有python包</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -U distribute</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">安装Pip</span><br><span class="line">sudo apt-get install python-pip python-dev build-essential </span><br><span class="line">sudo pip install --upgrade pip </span><br><span class="line">sudo pip install --upgrade virtualenv </span><br><span class="line">安装包</span><br><span class="line">pip install</span><br><span class="line">更新包</span><br><span class="line">pip install --upgrade [包名称]</span><br><span class="line">查看包列表</span><br><span class="line">pip list</span><br><span class="line">获取过期的库</span><br><span class="line">pip list --outdated</span><br><span class="line">卸载包</span><br><span class="line">pip uninstall [包名称]</span><br><span class="line">查看库信息</span><br><span class="line">pip show [包名称]</span><br><span class="line">一键升级所有python包</span><br><span class="line">pip install -U distribute</span><br></pre></td></tr></table></figure>
 <p>由于使用了mysql-connector-python的包，在安装时要使用 –allow-external mysql-connector-python 参数，所以在升级时，也应该加上该参数，命令行为：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -U distribute &amp;&amp; pip freeze --local | grep -v <span class="string">'^\-e'</span> | cut -d = -f <span class="number">1</span>  | xargs pip install -U --allow-external mysql-connector-python</span><br></pre></td></tr></table></figure>
 <hr>
@@ -257,7 +250,7 @@
         <p><span>本文标题:</span><a href="/2016/05/09/pip/">Python Pip工具</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Python白话 的个人博客">Python白话</a></p>
         <p><span>发布时间:</span>2016年05月09日 - 22时22分</p>
-        <p><span>最后更新:</span>2016年05月11日 - 23时44分</p>
+        <p><span>最后更新:</span>2016年05月24日 - 21时33分</p>
         <p>
             <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
         </p>
@@ -267,11 +260,11 @@
 
 <nav id="article-nav">
   
-    <a href="/2016/05/11/uninstall-youker/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2016/05/11/virtualenv/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          Ubuntu Kylin 卸载优客助手
+          python三大神器之一：virtualenv虚拟环境
         
       </div>
     </a>
@@ -290,7 +283,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#u5B89_u88C5Pip"><span class="toc-number">1.</span> <span class="toc-text">安装Pip</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u5B89_u88C5_u5305"><span class="toc-number">2.</span> <span class="toc-text">安装包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u66F4_u65B0_u5305"><span class="toc-number">3.</span> <span class="toc-text">更新包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u67E5_u770B_u5305_u5217_u8868"><span class="toc-number">4.</span> <span class="toc-text">查看包列表</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u83B7_u53D6_u8FC7_u671F_u7684_u5E93"><span class="toc-number">5.</span> <span class="toc-text">获取过期的库</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u5378_u8F7D_u5305"><span class="toc-number">6.</span> <span class="toc-text">卸载包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u67E5_u770B_u5E93_u4FE1_u606F"><span class="toc-number">7.</span> <span class="toc-text">查看库信息</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u4E00_u952E_u5347_u7EA7_u6240_u6709python_u5305"><span class="toc-number">8.</span> <span class="toc-text">一键升级所有python包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599"><span class="toc-number">9.</span> <span class="toc-text">文章参考资料</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#u6587_u7AE0_u53C2_u8003_u8D44_u6599"><span class="toc-number">1.</span> <span class="toc-text">文章参考资料</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
@@ -375,7 +368,7 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/05/11/uninstall-youker/" title="上一篇: Ubuntu Kylin 卸载优客助手">
+            <a href="/2016/05/11/virtualenv/" title="上一篇: python三大神器之一：virtualenv虚拟环境">
                 <i class="fa fa-angle-left"></i>
             </a>
         
@@ -386,7 +379,7 @@
             </a>
         
     </div>
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/05/11/virtualenv/">python三大神器之一：virtualenv虚拟环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/11/uninstall-youker/">Ubuntu Kylin 卸载优客助手</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/09/pip/">Python Pip工具</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/21/set-mysql/">设置 Mysql字符集为utf-8</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/20/install-mysql/">安装 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/uninstall-mysql/">卸载 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/data-plus/">Python 时间计算</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/15/date-type/">Python 时间类型</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/11/sublime-plus/">Sublime Text 3 进阶</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/sublime/">骑士的利刃：Sublime Text 3</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/apt-get/">Ubuntu下apt-get和dpkg命令详解</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/why-how-what/">学习，思维三部曲：Why How What（通过现象看本质）</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/31/install-ubuntu-kylin/">Geek第一步：安装Ubuntu Kylin系统</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/issue/">部署问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/2016-new-year-wish/">2016 猴年开年寄语</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/05/11/virtualenv/">python三大神器之一：virtualenv虚拟环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/09/pip/">Python Pip工具</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/21/set-mysql/">设置 Mysql字符集为utf-8</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/20/install-mysql/">安装 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/uninstall-mysql/">卸载 Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/16/data-plus/">Python 时间计算</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/15/date-type/">Python 时间类型</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/11/sublime-plus/">Sublime Text 3 进阶</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/sublime/">骑士的利刃：Sublime Text 3</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/08/apt-get/">Ubuntu下apt-get和dpkg命令详解</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/why-how-what/">学习，思维三部曲：Why How What（通过现象看本质）</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/31/install-ubuntu/">Geek第一步：安装Ubuntu系统</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/issue/">部署问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/08/2016-new-year-wish/">2016 猴年开年寄语</a></li></ul>
     <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
     <script>
         $(".post-list").addClass("toc-article");
