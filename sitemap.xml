@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/05/25/skill/</loc>
+    
+    <lastmod>2016-05-25T13:37:47.563Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/05/11/virtualenv/</loc>
     
-    <lastmod>2016-05-24T13:43:50.747Z</lastmod>
+    <lastmod>2016-05-25T13:36:46.267Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/04/16/data-plus/</loc>
+    
+    <lastmod>2016-05-25T13:36:22.431Z</lastmod>
     
   </url>
   
@@ -89,13 +103,6 @@
     <loc>http://yoursite.com/2016/04/21/set-mysql/</loc>
     
     <lastmod>2016-05-07T15:52:22.862Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/04/16/data-plus/</loc>
-    
-    <lastmod>2016-05-07T10:43:31.840Z</lastmod>
     
   </url>
   

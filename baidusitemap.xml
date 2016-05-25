@@ -4,11 +4,31 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/05/11/virtualenv/</loc>
-    <lastmod>2016-05-24T13:43:50.747Z</lastmod>
+    <loc>http://yoursite.com/2016/05/25/skill/</loc>
+    <lastmod>2016-05-25T13:37:47.563Z</lastmod>
     <data>
         <display>
-        <title>python三大神器之一：virtualenv虚拟环境</title>
+        <title>Python小技巧</title>
+        <pubTime>2016-05-25T13:17:31.000Z</pubTime>
+        
+        <tag>Python小技巧</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程心得体会" url="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B%E5%BF%83%E5%BE%97%E4%BD%93%E4%BC%9A/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/05/11/virtualenv/</loc>
+    <lastmod>2016-05-25T13:36:46.267Z</lastmod>
+    <data>
+        <display>
+        <title>Python三大神器之一：virtualenv虚拟环境</title>
         <pubTime>2016-05-11T14:51:43.000Z</pubTime>
         
         <tag>搭建virtualenv虚拟环境</tag>
@@ -17,6 +37,26 @@
            
              
               <breadCrumb title="Ubuntu环境搭建" url="http://yoursite.com/categories/Ubuntu%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/16/data-plus/</loc>
+    <lastmod>2016-05-25T13:36:22.431Z</lastmod>
+    <data>
+        <display>
+        <title>Python 时间计算</title>
+        <pubTime>2016-04-16T14:56:15.000Z</pubTime>
+        
+        <tag>时间计算</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python标准库" url="http://yoursite.com/categories/Python%E6%A0%87%E5%87%86%E5%BA%93/"/>
           
         </display>
     </data>
@@ -234,26 +274,6 @@
            
              
               <breadCrumb title="Mysql" url="http://yoursite.com/categories/Mysql/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/04/16/data-plus/</loc>
-    <lastmod>2016-05-07T10:43:31.840Z</lastmod>
-    <data>
-        <display>
-        <title>Python 时间计算</title>
-        <pubTime>2016-04-16T14:56:15.000Z</pubTime>
-        
-        <tag>时间计算</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python标准库" url="http://yoursite.com/categories/Python%E6%A0%87%E5%87%86%E5%BA%93/"/>
           
         </display>
     </data>
