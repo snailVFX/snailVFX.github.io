@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/05/28/change-python-version/</loc>
+    <lastmod>2016-05-28T12:15:05.111Z</lastmod>
+    <data>
+        <display>
+        <title>更改系统默认环境下的Python版本</title>
+        <pubTime>2016-05-28T12:11:15.000Z</pubTime>
+        
+        <tag>替换Python版本</tag>
+         
+         
+           
+             
+              <breadCrumb title="编程心得体会" url="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B%E5%BF%83%E5%BE%97%E4%BD%93%E4%BC%9A/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/05/25/skill/</loc>
-    <lastmod>2016-05-25T13:37:47.563Z</lastmod>
+    <lastmod>2016-05-28T11:52:53.003Z</lastmod>
     <data>
         <display>
         <title>Python小技巧</title>
